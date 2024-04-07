@@ -1,0 +1,59 @@
+@import url('./index.css');
+/* Header */
+
+.header{
+    padding: 1rem;
+    background-color: #f6f6f6;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header__menu {
+    list-style: none;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.header__menu-link {
+    text-decoration: none;
+    color: var(--font-color);
+    transition: color 0.4s ease;
+}
+
+.header__menu-link:hover{
+    color: #8436D2
+}
+
+
+.header__logo--img{
+    width: 3rem;
+}
+
+.header__buttons{
+    display: flex;
+    gap: .6rem;
+}
+
+.header__button{
+    border: none;
+    cursor: pointer;
+    background: none;
+    transition: transform 0.2s ease;
+}
+
+.header__button:hover{
+    transform: scale(1.1);
+}
+
+.header__button--icon{
+    width: 1.4rem;
+}
+
+.header__button--flag{
+    width: 2rem;
+}

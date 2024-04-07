@@ -1,0 +1,17 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+:root {
+  --font-color: #4f4f4f;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--font-color);
+}
+

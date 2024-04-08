@@ -1,0 +1,61 @@
+@import url('./index.css');
+
+/* Experience */
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+
+.experience__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.experience__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 18rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    gap: .2rem;
+}
+
+.experience__title {
+    color: var(--second-color);
+    text-align: center;
+}
+
+.experience__card--titlecontain {
+    text-align: center;
+}
+
+.experience__card--title {
+    color: var(--second-color);
+}
+
+
+.experience__card--text {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .experience__cards {
+        gap: 0;
+    }
+
+    .experience__card {
+        height: 14rem;
+    }
+}

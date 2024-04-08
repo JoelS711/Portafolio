@@ -31,9 +31,17 @@
 }
 
 .about__title{
-    font-size: 2rem;
     color: var(--second-color);
 }
+
 .about__p{
     width: 80%;
-}
+} 
+
+
+@media screen and (max-width: 768px) {
+    .about__p{
+        width: 100%;
+        text-align: center;
+    }    
+    }

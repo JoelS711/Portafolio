@@ -41,6 +41,6 @@
     left: 50%;
     bottom: 50%;
     transform: translate(-50%, 50%);
-    border-top: 2px solid #f6f6f6;
+    border-top: 2px solid var(--third-color);
     z-index: -1;
 }

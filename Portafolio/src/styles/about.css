@@ -1,0 +1,39 @@
+@import url('./index.css');
+
+/* About */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+}
+
+.about__cards{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about__cards--card{
+    background-color: var(--third-color);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__title{
+    font-size: 2rem;
+    color: var(--second-color);
+}
+.about__p{
+    width: 80%;
+}

@@ -1,9 +1,29 @@
 import './styles/header.css';
 import logo from './assets/logo.png';
+import React, { useState, useEffect } from 'react';
+
 
 export function Header() {
+    const [scroll, setScroll] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScroll(true);
+      } else {
+        setScroll(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+  
     return (
-            <header className='header'>
+            <header className={scroll ? 'header-scroll' : 'header'}>
                 <div className='header__container'>
                     <figure className='header__logo'>
                         <img src={`${logo}`} alt="Logo" className='header__logo--img' />

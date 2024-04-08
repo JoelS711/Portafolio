@@ -24,10 +24,10 @@ export function Proyects() {
                                 <img src="./src/assets/icons/js.png" alt="html Logo" className='proyects__icon--img'/>
                             </figure>
                         </div>
-                        <p className="proyects__description">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <p className="proyects__description--p">Lorem ipsum dolor sit amet consectetur adipisicing elit dipisicing elit dipisicing elitdipisicing elitdipisicing elit</p>
                         <div className="proyects__buttons">
-                            <button className="proyects__button"><a href="">Github</a></button>
-                            <button className="proyects__button"><a href="">Preview</a></button>
+                            <button className="proyects__button"><a href="https://github.com/JoelS711/Api-JS/tree/master/F1" className='proyects__button--link'>Github</a></button>
+                            <button className="proyects__button"><a href="https://joels711.github.io/Api-JS/F1/index.html" className='proyects__button--link' >Preview</a></button>
                         </div>
 
                     </div>

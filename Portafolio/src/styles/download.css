@@ -1,0 +1,46 @@
+@import url('./index.css');
+
+/* Download */
+
+.download{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.shadow__btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    font-weight: 700;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .shadow__btn {
+    background: var(--second-color);
+    box-shadow: 0 0 25px var(--second-color);
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px var(--second-color),
+                0 0 25px var(--second-color),
+                0 0 50px var(--second-color),
+                0 0 100px var(--second-color);
+  }
+
+  .line {
+    position: absolute;
+    width: calc(80% - 20px);
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+    border-top: 2px solid #f6f6f6;
+    z-index: -1;
+}

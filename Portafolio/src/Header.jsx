@@ -9,18 +9,18 @@ export function Header() {
                         <img src={`${logo}`} alt="Logo" className='header__logo--img' />
                     </figure>
                     <nav className='header__nav'>
-                        <ul class="header__menu">
-                            <li class="header__menu-item">
-                                <a href="#" class="header__menu-link">Acerca de mi</a>
+                        <ul className="header__menu">
+                            <li className="header__menu-item">
+                                <a href="#" className="header__menu-link">Acerca de mi</a>
                             </li>
-                            <li class="header__menu-item">
-                                <a href="#" class="header__menu-link">Experiencia</a>
+                            <li className="header__menu-item">
+                                <a href="#" className="header__menu-link">Experiencia</a>
                             </li>
-                            <li class="header__menu-item">
-                                <a href="#" class="header__menu-link">Proyectos</a>
+                            <li className="header__menu-item">
+                                <a href="#" className="header__menu-link">Proyectos</a>
                             </li>
-                            <li class="header__menu-item">
-                                <a href="#" class="header__menu-link">Habilidades</a>
+                            <li className="header__menu-item">
+                                <a href="#" className="header__menu-link">Habilidades</a>
                             </li>
                         </ul>
                     </nav>

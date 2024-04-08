@@ -1,0 +1,80 @@
+@import url('./index.css');
+
+
+/* Presentation */
+
+.presentation {
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.presentation__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    gap: .4rem;
+}
+
+.presentation__name {
+    font-size: 3.8rem;
+    background: url(../assets/backname.gif) 0 0 / cover no-repeat;
+    background-clip: text;
+    /* Hace que el fondo del texto adopte el gradiente */
+    -webkit-text-fill-color: transparent;
+    /* Hace que el color del texto sea transparente para que adopte el gradiente */
+}
+
+.presentation__subtitle {
+    font-size: 2rem;
+    color: var(--second-color);
+}
+
+.presentation__icons {
+    display: flex;
+    gap: .2rem;
+}
+
+.presentation__icons--icon {
+    transition: transform 0.2s ease;
+}
+
+.presentation__icons--icon:hover {
+    transform: scale(1.1);
+}
+
+.presentation__image {
+    width: 24rem;
+    filter: drop-shadow(0 0 0.6rem rgba(0, 0, 0, 0.8));
+}
+
+
+@media screen and (max-width: 768px) {
+    .presentation {
+        display: flex;
+        padding: 2rem;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .presentation__container {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .presentation__icons {
+        display: flex;
+        justify-content: center;
+        gap: .2rem;
+        width: 100%;
+    }
+
+    .presentation__image {
+        width: 24rem;
+    }
+
+}

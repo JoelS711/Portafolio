@@ -14,7 +14,6 @@
 
 .header__menu {
     list-style: none;
-    list-style: none;
     display: flex;
     gap: 1rem;
 }
@@ -26,12 +25,12 @@
 }
 
 .header__menu-link:hover{
-    color: #8436D2
+    color: var(--second-color);
 }
 
 
 .header__logo--img{
-    width: 3rem;
+    width: 2rem;
 }
 
 .header__buttons{
@@ -56,4 +55,12 @@
 
 .header__button--flag{
     width: 2rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+.header__nav{
+    display: none;
+}
 }

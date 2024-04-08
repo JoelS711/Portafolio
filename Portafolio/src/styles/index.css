@@ -8,9 +8,12 @@
 /* Global Styles */
 :root {
   --font-color: #4f4f4f;
+  --second-color: #8436D2;
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
   font-family: "Poppins", sans-serif;
   color: var(--font-color);
 }

@@ -3,7 +3,7 @@ import './styles/experience.css';
 export function Experience() {
     return (
         <>
-            <section class="separator">
+            <section className="separator">
                 <div className="separator__line"></div>
             </section>
             <section className='experience'>

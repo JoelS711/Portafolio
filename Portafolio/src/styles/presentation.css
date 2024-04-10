@@ -52,6 +52,10 @@
     filter: drop-shadow(0 0 0.6rem rgba(0, 0, 0, 0.8));
 }
 
+.presentation__icons--logo{
+    width: 3rem;
+}
+
 
 @media screen and (max-width: 768px) {
     .presentation {

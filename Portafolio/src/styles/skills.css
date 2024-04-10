@@ -1,0 +1,33 @@
+@import url('./index.css');
+
+/* Skills */
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.skills__title{
+    color: var(--second-color);
+}
+
+.skills__figure{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skills__img{
+    width: 8rem;
+    border-radius: 1rem;
+    border: 2px solid var(--second-color);
+    transition: transform 0.4s ease;
+}
+
+.skills__img:hover{
+    transform: scale(1.1);
+}

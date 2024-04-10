@@ -1,0 +1,162 @@
+[
+    {
+      "image": "./src/assets/proyects/f1.png",
+      "nameProyect": "Formula 1",
+      "icons": [
+        {
+          "src": "./src/assets/icons/html.png",
+          "alt": "HTML Logo",
+          "className": "proyects__icon--img"
+        },
+        {
+          "src": "./src/assets/icons/css.png",
+          "alt": "CSS Logo",
+          "className": "proyects__icon--img"
+        },
+        {
+          "src": "./src/assets/icons/js.png",
+          "alt": "JavaScript Logo",
+          "className": "proyects__icon--img"
+        }
+      ],
+      "description": "Esta página está diseñada para consumir datos de una API de la Fórmula 1, ofreciendo una experiencia dinámica y actualizada sobre eventos, estadísticas y detalles relacionados con el apasionante mundo de las carreras de autos de la Fórmula 1.",
+      "github": "https://github.com/JoelS711/Api-JS/tree/master/F1",
+      "preview":"https://joels711.github.io/Api-JS/F1/index.html"
+    },
+    {
+      "image": "./src/assets/proyects/weather.png",
+      "nameProyect": "Weather",
+      "icons": [
+        {
+          "src": "./src/assets/icons/html.png",
+          "alt": "HTML Logo",
+          "className": "proyects__icon--img"
+        },
+        {
+          "src": "./src/assets/icons/css.png",
+          "alt": "CSS Logo",
+          "className": "proyects__icon--img"
+        },
+        {
+          "src": "./src/assets/icons/js.png",
+          "alt": "JavaScript Logo",
+          "className": "proyects__icon--img"
+        }
+      ],
+      "description": "API del clima proporciona acceso a datos meteorológicos actualizados y pronósticos, permitiendo a los desarrolladores integrar información precisa sobre el clima en sus aplicaciones y sitios web.",
+      "github": "https://github.com/JoelS711/Api-JS/tree/master/Weather",
+      "preview":"https://joels711.github.io/Api-JS/Weather/index.html"
+    },
+    {
+      "image": "./src/assets/proyects/pokemon.png",
+      "nameProyect": "Pokemon",
+      "icons": [
+        {
+          "src": "./src/assets/icons/html.png",
+          "alt": "HTML Logo",
+          "className": "proyects__icon--img"
+        },
+        {
+          "src": "./src/assets/icons/css.png",
+          "alt": "CSS Logo",
+          "className": "proyects__icon--img"
+        },
+        {
+          "src": "./src/assets/icons/js.png",
+          "alt": "JavaScript Logo",
+          "className": "proyects__icon--img"
+        }
+      ],
+      "description": "Accede a datos esenciales sobre Pokémon, como especies, movimientos y habilidades, a través de la integración de una API especializada, facilitando la creación de aplicaciones enfocadas en el mundo Pokémon.",
+      "github": "https://github.com/JoelS711/Api-JS/tree/master/Pokemon",
+      "preview":"https://joels711.github.io/Api-JS/Pokemon/index.html"
+    },
+    {
+      "image": "./src/assets/proyects/cirujano.png",
+      "nameProyect": "Cirujano Plastico",
+      "icons": [
+        {
+          "src": "./src/assets/icons/html.png",
+          "alt": "HTML Logo",
+          "className": "proyects__icon--img"
+        },
+        {
+          "src": "./src/assets/icons/css.png",
+          "alt": "CSS Logo",
+          "className": "proyects__icon--img"
+        }
+      ],
+      "description": "Una página web para un cirujano plástico creada con HTML y CSS presenta información clara y detallada sobre los servicios ofrecidos, procedimientos disponibles y testimonios de pacientes, con un diseño elegante y profesional que refleja la experiencia y calidad del cirujano.",
+      "github": "https://github.com/JoelS711/LandingPages/tree/master/CirujanoPlastico",
+      "preview":"https://joels711.github.io/LandingPages/CirujanoPlastico/index.html"
+    },
+    {
+      "image": "./src/assets/proyects/abogado.png",
+      "nameProyect": "Abogado",
+      "icons": [
+        {
+          "src": "./src/assets/icons/html.png",
+          "alt": "HTML Logo",
+          "className": "proyects__icon--img"
+        },
+        {
+          "src": "./src/assets/icons/css.png",
+          "alt": "CSS Logo",
+          "className": "proyects__icon--img"
+        }
+      ],
+      "description": "El sitio web de un abogado, desarrollado exclusivamente con HTML y CSS, ofrece una presentación clara y profesional de los servicios legales ofrecidos, áreas de especialización y testimonios de clientes, proporcionando una experiencia confiable y transparente para los visitantes en busca de asesoramiento legal.",
+      "github": "https://github.com/JoelS711/LandingPages/tree/master/Abogado",
+      "preview":"https://joels711.github.io/LandingPages/Abogado/index.html"
+    },
+    {
+      "image": "./src/assets/proyects/tienda.png",
+      "nameProyect": "Tienda Sucursal",
+      "icons": [
+        {
+          "src": "./src/assets/icons/html.png",
+          "alt": "HTML Logo",
+          "className": "proyects__icon--img"
+        },
+        {
+          "src": "./src/assets/icons/css.png",
+          "alt": "CSS Logo",
+          "className": "proyects__icon--img"
+        },
+        {
+          "src": "./src/assets/icons/java.png",
+          "alt": "Java Logo",
+          "className": "proyects__icon--img"
+        },
+        {
+          "src": "./src/assets/icons/mongo.png",
+          "alt": "Mongo Logo",
+          "className": "proyects__icon--img"
+        },
+        {
+          "src": "./src/assets/icons/spring.png",
+          "alt": "Spring Logo",
+          "className": "proyects__icon--img"
+        },
+        {
+          "src": "./src/assets/icons/angular.png",
+          "alt": "Angular Logo",
+          "className": "proyects__icon--img"
+        },
+        {
+          "src": "./src/assets/icons/sql.png",
+          "alt": "SQL Logo",
+          "className": "proyects__icon--img"
+        },
+        {
+          "src": "./src/assets/icons/mysql.png",
+          "alt": "mySQL Logo",
+          "className": "proyects__icon--img"
+        }
+      ],
+      "description": "Un sistema de ventas integrado con Angular para el frontend y Java con Spring Boot para el backend, respaldado por bases de datos relacionales y no relacionales, ofrece una plataforma completa y escalable para gestionar eficientemente procesos de ventas, inventario y análisis de datos, con una interfaz moderna y funcionalidad robusta.",
+      "github": "https://github.com/JoelS711/backTiendaGenerica",
+      "preview":"https://github.com/JoelS711/frontTiendaGenerica"
+    }
+  ]
+  

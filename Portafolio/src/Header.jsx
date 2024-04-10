@@ -4,26 +4,26 @@ import React, { useState, useEffect } from 'react';
 
 
 export function Header() {
-    const [scroll, setScroll] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
+  const [visible, setVisible] = useState(true);
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setScroll(true);
-      } else {
-        setScroll(false);
-      }
-    };
+      const handleScroll = () => {
+          const currentScrollPos = window.pageYOffset;
+          const visible = prevScrollPos > currentScrollPos;
+          setPrevScrollPos(currentScrollPos);
+          setVisible(visible);
+      };
 
-    window.addEventListener('scroll', handleScroll);
+      window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+      return () => {
+          window.removeEventListener('scroll', handleScroll);
+      };
+  }, [prevScrollPos]);
   
     return (
-            <header className={scroll ? 'header-scroll' : 'header'}>
+            <header className={visible ? 'header-scroll' : 'header'}>
                 <div className='header__container'>
                     <figure className='header__logo'>
                         <img src={`${logo}`} alt="Logo" className='header__logo--img' />

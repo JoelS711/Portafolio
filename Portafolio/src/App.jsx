@@ -6,6 +6,8 @@ import { Download} from './Download.jsx'
 import { About } from './About.jsx'
 import { Experience } from './Experience.jsx'
 import { Proyects } from './Proyects.jsx'
+import { Skills } from './Skills.jsx'
+import { Contact } from './Contact.jsx'
 
 function App() {
   return(
@@ -16,6 +18,8 @@ function App() {
     <About/>
     <Experience/>
     <Proyects/>
+    <Skills/>
+    <Contact/>
     </>
   )
 

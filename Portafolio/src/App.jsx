@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState, useEffect } from 'react';
 import './styles/App.css'
 import { Header } from './Header.jsx'
 import { Presentation } from './Presentation.jsx'
@@ -10,9 +10,19 @@ import { Skills } from './Skills.jsx'
 import { Contact } from './Contact.jsx'
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    const isDarkMode = localStorage.getItem('darkMode') === 'true';
+    setDarkMode(isDarkMode);
+  }, []);
+
+  const handleDarkModeChange = (newMode) => {
+    setDarkMode(newMode);
+  };
   return(
-    <>
-    <Header/>
+    <main className={`App ${darkMode ? 'dark-mode' : ''}`}>
+    <Header onDarkModeChange={handleDarkModeChange}/>
     <Presentation/>
     <Download/>
     <About/>
@@ -20,7 +30,7 @@ function App() {
     <Proyects/>
     <Skills/>
     <Contact/>
-    </>
+    </main>
   )
 
 }

@@ -82,4 +82,7 @@
     .contact__description{
         width: 100%;
     }
+    .contact__card{
+        width: 100%;
+    }
 }

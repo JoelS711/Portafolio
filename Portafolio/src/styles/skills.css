@@ -31,3 +31,9 @@
 .skills__img:hover{
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 768px) {
+    .skills__img{
+        width: 6rem;
+    }
+}

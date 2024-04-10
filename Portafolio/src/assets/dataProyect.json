@@ -144,11 +144,6 @@
           "className": "proyects__icon--img"
         },
         {
-          "src": "./src/assets/icons/sql.png",
-          "alt": "SQL Logo",
-          "className": "proyects__icon--img"
-        },
-        {
           "src": "./src/assets/icons/mysql.png",
           "alt": "mySQL Logo",
           "className": "proyects__icon--img"

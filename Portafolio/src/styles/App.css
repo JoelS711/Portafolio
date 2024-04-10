@@ -1,1 +1,46 @@
+/* APP */
 
+.dark-mode{
+    background-color: black;
+    p{
+        color: white;
+    }
+    span{
+        color: white;
+    }
+    h3{
+        color: white;
+    }
+
+    .header-scroll{
+        background-color: black;
+    }
+
+    .header__menu--link{
+        color: white;
+    }
+
+    .about__cards--card{
+        background-color: black;
+    }
+
+    .proyects__card{
+        background-color: black;
+        border: 2px solid var(--second-color);
+
+    }
+
+    .proyects__figure{
+        background-color: var(--second-color);
+    }
+
+    .skills__img{
+        border: 2px solid white;
+    }
+
+    .contact__card{
+        background-color: black;
+
+    }
+
+}

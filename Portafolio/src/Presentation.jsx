@@ -24,7 +24,7 @@ export function Presentation() {
                 </figure>
             </div>
             <figure>
-                <img src="./src/assets/perfil2.png" alt="Imagen de Perfil" className='presentation__image' />
+                <img src="/assets/perfil2.png" alt="Imagen de Perfil" className='presentation__image' />
             </figure>
         </section>
     )

@@ -6,7 +6,7 @@ export function Experience() {
             <section className="separator">
                 <div className="separator__line"></div>
             </section>
-            <section className='experience'>
+            <section className='experience' id='experience'>
                 <h2 className="experience__title">Experiencia Laboral</h2>
                 <div className="experience__cards">
                     <div className="experience__card">

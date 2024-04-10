@@ -9,7 +9,7 @@ export function Proyects() {
             <section className="separator">
                 <div className="separator__line"></div>
             </section>
-            <section className='proyects'>
+            <section className='proyects' id='proyects'>
                 <h2 className="proyects__title">Proyectos</h2>
                 <p className="proyects__description">He trabajo en proyectos utilizando Java, JavaScript, Spring Boot, HTML, CSS, Angular, React y Python, entre otros. Mi enfoque abarca desde aplicaciones web hasta backend, trabajando con bases de datos relacionales y no relacionales para garantizar la calidad y eficiencia en cada proyecto.</p>
                 <article className='proyects__cards'>

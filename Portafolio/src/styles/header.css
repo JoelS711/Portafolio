@@ -1,6 +1,11 @@
 @import url('./index.css');
 /* Header */
 
+html {
+    scroll-behavior: smooth;
+    scroll-behavior: smooth 500ms; /* La transición tardará 0.5 segundos en completarse */
+  }
+
 .header{
     display: none;
 }

@@ -26,8 +26,12 @@
     width: 20rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+
+.about__cards--img{
+    width: 5rem;
 }
 
 .about__title{

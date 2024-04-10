@@ -8,7 +8,7 @@ export function Contact() {
             <section className="separator">
                 <div className="separator__line"></div>
             </section>
-            <section className='contact'>
+            <section className='contact' id='contact'>
                 <h2 className="contact__title">Contacto</h2>
                 <p className="contact__description">Estoy disponible para considerar cualquier oportunidad profesional o propuesta de colaboración que pueda surgir. Si tienes alguna idea que te gustaría discutir o compartir, no dudes en ponerte en contacto conmigo. Estaré encantado de responder a la brevedad posible y explorar cómo podemos colaborar juntos.</p>
                 <div className='contact__card'>

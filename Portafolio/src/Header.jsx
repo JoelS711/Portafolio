@@ -31,16 +31,19 @@ export function Header() {
                     <nav className='header__nav'>
                         <ul className="header__menu">
                             <li className="header__menu-item">
-                                <a href="#" className="header__menu-link">Acerca de mi</a>
+                                <a href="#about" className="header__menu-link">Acerca de mi</a>
                             </li>
                             <li className="header__menu-item">
-                                <a href="#" className="header__menu-link">Experiencia</a>
+                                <a href="#experience" className="header__menu-link">Experiencia</a>
                             </li>
                             <li className="header__menu-item">
-                                <a href="#" className="header__menu-link">Proyectos</a>
+                                <a href="#proyects" className="header__menu-link">Proyectos</a>
                             </li>
                             <li className="header__menu-item">
-                                <a href="#" className="header__menu-link">Habilidades</a>
+                                <a href="#skills" className="header__menu-link">Habilidades</a>
+                            </li>
+                            <li className="header__menu-item">
+                                <a href="#contact" className="header__menu-link">Contacto</a>
                             </li>
                         </ul>
                     </nav>

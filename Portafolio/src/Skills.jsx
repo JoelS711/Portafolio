@@ -18,7 +18,7 @@ export function Skills() {
             <section className="separator">
                 <div className="separator__line"></div>
             </section>
-            <section className='skills'>
+            <section className='skills' id='skills'>
                 <h2 className="skills__title">Habilidades</h2>
                 <figure className="skills__figure">
                     {uniqueSkills.map((skill, index) => (

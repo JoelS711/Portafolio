@@ -30,6 +30,8 @@ export function Header({ onDarkModeChange }) {
         onDarkModeChange(newMode); // Llama a la función proporcionada por la prop onDarkModeChange
         localStorage.setItem('darkMode', newMode);
     };
+
+    /*<button className='header__button'><img src="https://flagsapi.com/GB/shiny/64.png" alt="language" className='header__button--flag' /></button>*/
     return (
         <header className={visible ? 'header-scroll' : 'header'}>
             <div className='header__container'>
@@ -63,7 +65,7 @@ export function Header({ onDarkModeChange }) {
                             <span class="slider"></span>
                         </label>
                     </div>
-                    <button className='header__button'><img src="https://flagsapi.com/US/shiny/64.png" alt="language" className='header__button--flag' /></button>
+                    
                 </div>
             </div>
         </header>

@@ -1,5 +1,6 @@
 import './styles/presentation.css';
-import {YouTube} from './assets/SocialMedia/youtube.png'
+import YouTube from './assets/SocialMedia/youtube.png'
+import './assets/SocialMedia/mail.png'
 
 export function Presentation() {
     return (

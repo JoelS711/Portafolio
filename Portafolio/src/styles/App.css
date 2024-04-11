@@ -19,6 +19,10 @@
     .header__menu--link{
         color: white;
     }
+    
+    .header__logo--img{
+    filter: drop-shadow(0 0 0.4rem rgba(255, 255, 255, 0.8));
+}
 
     .about__cards--card{
         background-color: black;

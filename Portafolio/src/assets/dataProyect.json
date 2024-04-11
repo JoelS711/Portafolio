@@ -1,20 +1,20 @@
 [
     {
-      "image": "./src/assets/proyects/f1.png",
+      "image": "f1.png",
       "nameProyect": "Formula 1",
       "icons": [
         {
-          "src": "./src/assets/icons/html.png",
+          "src": "html.png",
           "alt": "HTML Logo",
           "className": "proyects__icon--img"
         },
         {
-          "src": "./src/assets/icons/css.png",
+          "src": "css.png",
           "alt": "CSS Logo",
           "className": "proyects__icon--img"
         },
         {
-          "src": "./src/assets/icons/js.png",
+          "src": "js.png",
           "alt": "JavaScript Logo",
           "className": "proyects__icon--img"
         }
@@ -24,21 +24,21 @@
       "preview":"https://joels711.github.io/Api-JS/F1/index.html"
     },
     {
-      "image": "./src/assets/proyects/weather.png",
+      "image": "weather.png",
       "nameProyect": "Weather",
       "icons": [
         {
-          "src": "./src/assets/icons/html.png",
+          "src": "html.png",
           "alt": "HTML Logo",
           "className": "proyects__icon--img"
         },
         {
-          "src": "./src/assets/icons/css.png",
+          "src": "css.png",
           "alt": "CSS Logo",
           "className": "proyects__icon--img"
         },
         {
-          "src": "./src/assets/icons/js.png",
+          "src": "js.png",
           "alt": "JavaScript Logo",
           "className": "proyects__icon--img"
         }
@@ -48,21 +48,21 @@
       "preview":"https://joels711.github.io/Api-JS/Weather/index.html"
     },
     {
-      "image": "./src/assets/proyects/pokemon.png",
+      "image": "pokemon.png",
       "nameProyect": "Pokemon",
       "icons": [
         {
-          "src": "./src/assets/icons/html.png",
+          "src": "html.png",
           "alt": "HTML Logo",
           "className": "proyects__icon--img"
         },
         {
-          "src": "./src/assets/icons/css.png",
+          "src": "css.png",
           "alt": "CSS Logo",
           "className": "proyects__icon--img"
         },
         {
-          "src": "./src/assets/icons/js.png",
+          "src": "js.png",
           "alt": "JavaScript Logo",
           "className": "proyects__icon--img"
         }
@@ -72,16 +72,16 @@
       "preview":"https://joels711.github.io/Api-JS/Pokemon/index.html"
     },
     {
-      "image": "./src/assets/proyects/cirujano.png",
+      "image": "cirujano.png",
       "nameProyect": "Cirujano Plastico",
       "icons": [
         {
-          "src": "./src/assets/icons/html.png",
+          "src": "html.png",
           "alt": "HTML Logo",
           "className": "proyects__icon--img"
         },
         {
-          "src": "./src/assets/icons/css.png",
+          "src": "css.png",
           "alt": "CSS Logo",
           "className": "proyects__icon--img"
         }
@@ -91,16 +91,16 @@
       "preview":"https://joels711.github.io/LandingPages/CirujanoPlastico/index.html"
     },
     {
-      "image": "./src/assets/proyects/abogado.png",
+      "image": "abogado.png",
       "nameProyect": "Abogado",
       "icons": [
         {
-          "src": "./src/assets/icons/html.png",
+          "src": "html.png",
           "alt": "HTML Logo",
           "className": "proyects__icon--img"
         },
         {
-          "src": "./src/assets/icons/css.png",
+          "src": "css.png",
           "alt": "CSS Logo",
           "className": "proyects__icon--img"
         }
@@ -110,41 +110,41 @@
       "preview":"https://joels711.github.io/LandingPages/Abogado/index.html"
     },
     {
-      "image": "./src/assets/proyects/tienda.png",
+      "image": "tienda.png",
       "nameProyect": "Tienda Sucursal",
       "icons": [
         {
-          "src": "./src/assets/icons/html.png",
+          "src": "html.png",
           "alt": "HTML Logo",
           "className": "proyects__icon--img"
         },
         {
-          "src": "./src/assets/icons/css.png",
+          "src": "css.png",
           "alt": "CSS Logo",
           "className": "proyects__icon--img"
         },
         {
-          "src": "./src/assets/icons/java.png",
+          "src": "java.png",
           "alt": "Java Logo",
           "className": "proyects__icon--img"
         },
         {
-          "src": "./src/assets/icons/mongo.png",
+          "src": "mongo.png",
           "alt": "Mongo Logo",
           "className": "proyects__icon--img"
         },
         {
-          "src": "./src/assets/icons/spring.png",
+          "src": "spring.png",
           "alt": "Spring Logo",
           "className": "proyects__icon--img"
         },
         {
-          "src": "./src/assets/icons/angular.png",
+          "src": "angular.png",
           "alt": "Angular Logo",
           "className": "proyects__icon--img"
         },
         {
-          "src": "./src/assets/icons/mysql.png",
+          "src": "mysql.png",
           "alt": "mySQL Logo",
           "className": "proyects__icon--img"
         }

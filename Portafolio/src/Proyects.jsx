@@ -17,14 +17,14 @@ export function Proyects() {
                         <div className="proyects__card" key={index}>
                             <div className="proyects__image">
                                 <figure className="proyects__figure">
-                                    <img src={proyect.image} alt={proyect.nameProyect} className="proyects__figure--img" />
+                                    <img src={`/Proyects/${proyect.image}`} alt={proyect.nameProyect} className="proyects__figure--img" />
                                 </figure>
                             </div>
                             <h3 className="proyects__name">{proyect.nameProyect}</h3>
                             <div className='proyects__icons'>
                                 <figure className='proyects__icon'>
                                     {proyect.icons.map((icon, indexIcon) => (
-                                        <img src={icon.src} alt={icon.alt} className={icon.className} key={indexIcon} />
+                                        <img src={`/Icons/${icon.src}`} alt={icon.alt} className={icon.className} key={indexIcon} />
                                     ))}
                                 </figure>
                             </div>

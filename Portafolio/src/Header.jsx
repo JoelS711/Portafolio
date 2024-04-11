@@ -1,5 +1,4 @@
 import './styles/header.css';
-import logo from './assets/logo.png';
 import React, { useState, useEffect } from 'react';
 
 
@@ -36,7 +35,7 @@ export function Header({ onDarkModeChange }) {
         <header className={visible ? 'header-scroll' : 'header'}>
             <div className='header__container'>
                 <figure className='header__logo'>
-                    <img src={`${logo}`} alt="Logo" className='header__logo--img' />
+                    <img src='/logo.png' alt="Logo" className='header__logo--img' />
                 </figure>
                 <nav className='header__nav'>
                     <ul className="header__menu">
@@ -58,11 +57,11 @@ export function Header({ onDarkModeChange }) {
                     </ul>
                 </nav>
                 <div className='header__buttons'>
-                    <div class="toggle-switch">
-                        <label class="switch-label">
-                            <input type="checkbox" class="checkbox" checked={darkMode}
+                    <div className="toggle-switch">
+                        <label className="switch-label">
+                            <input type="checkbox" className="checkbox" checked={darkMode}
                                 onChange={toggleDarkMode} />
-                            <span class="slider"></span>
+                            <span className="slider"></span>
                         </label>
                     </div>
                     

@@ -22,7 +22,7 @@
 
 .presentation__name {
     font-size: 3.8rem;
-    background: url(../assets/backname.gif) 0 0 / cover no-repeat;
+    background: url(/backname.gif) 0 0 / cover no-repeat;
     background-clip: text;
     /* Hace que el fondo del texto adopte el gradiente */
     -webkit-text-fill-color: transparent;

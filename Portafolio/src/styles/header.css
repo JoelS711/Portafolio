@@ -33,6 +33,14 @@ html {
     gap: 1rem;
 }
 
+.header__menu-item{
+  transition: .4s ease;
+}
+
+.header__menu-item:hover{
+  transform: scale(1.02);
+}
+
 .header__menu--link {
     text-decoration: none;
     color: var(--font-color);
@@ -41,6 +49,14 @@ html {
 
 .header__menu--link:hover{
     color: var(--second-color);
+}
+
+.header__logo{
+  transition: 0.4s ease;
+}
+
+.header__logo:hover{
+  transform: scale(1.1);
 }
 
 

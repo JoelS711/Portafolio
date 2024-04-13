@@ -2,6 +2,7 @@
 
 .dark-mode{
     background-color: black;
+    transition: background-color 1s ease;
     p{
         color: white;
     }

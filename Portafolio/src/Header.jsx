@@ -35,7 +35,7 @@ export function Header({ onDarkModeChange }) {
         <header className={visible ? 'header-scroll' : 'header'}>
             <div className='header__container'>
                 <figure className='header__logo'>
-                    <img src='/logo.png' alt="Logo" className='header__logo--img' />
+                    <a href="#about"><img src='/logo.png' alt="Logo" className='header__logo--img' /></a>
                 </figure>
                 <nav className='header__nav'>
                     <ul className="header__menu">

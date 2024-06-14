@@ -151,7 +151,7 @@
       ],
       "description": "Un sistema de ventas integrado con Angular para el frontend y Java con Spring Boot para el backend, respaldado por bases de datos relacionales y no relacionales, ofrece una plataforma completa y escalable para gestionar eficientemente procesos de ventas, inventario y análisis de datos, con una interfaz moderna y funcionalidad robusta.",
       "github": "https://github.com/JoelS711/backTiendaGenerica",
-      "preview":"https://github.com/JoelS711/shop"
+      "preview":"https://shop-front-services.onrender.com/home"
     },
     {
       "image": "encripdecrip.png",

@@ -22,7 +22,10 @@ export function Skills() {
                 <h2 className="skills__title">Habilidades</h2>
                 <figure className="skills__figure">
                     {uniqueSkills.map((skill, index) => (
-                        <img src={`/Icons/${skill.src}`} alt={skill.alt} className='skills__img' key={index} />
+                        <div key={index} className='skills__item'>
+                        <img src={`/Icons/${skill.src}`} alt={skill.alt} className='skills__img' />
+                        <span className='skills__name'>{skill.alt.replace(' Logo', '')}</span>
+                    </div>
                     ))}
 
                 </figure>

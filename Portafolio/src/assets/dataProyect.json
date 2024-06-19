@@ -130,7 +130,7 @@
         },
         {
           "src": "mongo.png",
-          "alt": "Mongo Logo",
+          "alt": "MongoDB Logo",
           "className": "proyects__icon--img"
         },
         {
@@ -175,6 +175,11 @@
         {
           "src": "js.png",
           "alt": "JavaScript Logo",
+          "className": "proyects__icon--img"
+        },
+        {
+          "src": "python.png",
+          "alt": "Python Logo",
           "className": "proyects__icon--img"
         }
       ],

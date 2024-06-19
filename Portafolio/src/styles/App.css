@@ -39,8 +39,12 @@
         background-color: var(--second-color);
     }
 
-    .skills__img{
-        border: 2px solid white;
+    .skills__item{
+        border: 2px solid var(--second-color);
+    }
+
+    .skills__name{
+        color: #fff;
     }
 
     .contact__card{

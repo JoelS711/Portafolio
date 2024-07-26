@@ -26,7 +26,7 @@ export function Contact() {
                             </a>
                         </figure>
                         <figure className='contact__media--figure'>
-                            <a href="https://www.linkedin.com/in/emanuel-gelvez-13020a1b0/" target="_blank">
+                            <a href="https://www.linkedin.com/in/emanuelgelvez/" target="_blank">
                             <img src='/SocialMedia/linkedln.png' alt="Image Linkedln" className='contact__media--img'/>
                             </a>
                         </figure>

@@ -46,7 +46,7 @@ export function Presentation() {
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/emanuel-gelvez-13020a1b0"
+            href="https://www.linkedin.com/in/emanuelgelvez/"
             target="_blank"
             className="presentation__icons--icon"
           >

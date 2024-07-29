@@ -15,7 +15,9 @@ export function Experience() {
                         </div>
                         <span className='experience__card--company'>Acer Latam</span>
                         <span className='experience__card--position'>Asesor</span>
-                        <p className='experience__card--text'>Asesor comercial con alta experiencia en software y hardware.</p>
+                        <p className='experience__card--text'>Trabajé como Asesor Comercial, brindando asesoramiento en software
+                            y hardware. Logré aumentar las ventas y mejorar la satisfacción del
+                            cliente, desarrollando habilidades comerciales y tecnológicas clave.</p>
                     </div>
                     <div className="experience__card">
                         <div className="experience__card--titlecontain">
@@ -23,8 +25,10 @@ export function Experience() {
                         </div>
                         <span className='experience__card--company'>Colombia Movil - TIGO</span>
                         <span className='experience__card--position'>Asesor</span>
-                        <p className='experience__card--text'>Asesor servicio y ventas, manejo de
-                            plataformas facturadoras, entre otras. </p>
+                        <p className='experience__card--text'>Trabajé en el área de Redes y Telecomunicaciones como especialista
+                            en atención al cliente, brindando soporte y realizando ventas. Esta
+                            experiencia fortaleció mis habilidades en comunicación y resolución
+                            de problemas. </p>
                     </div>
                 </div>
 

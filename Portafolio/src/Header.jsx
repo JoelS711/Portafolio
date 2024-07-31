@@ -2,7 +2,7 @@ import './styles/header.css';
 import React, { useState, useEffect } from 'react';
 
 
-export function Header({ onDarkModeChange }) {
+export function Header({ darkMode, onDarkModeChange }) {
     const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
     const [visible, setVisible] = useState(true);
 
@@ -21,14 +21,10 @@ export function Header({ onDarkModeChange }) {
         };
     }, [prevScrollPos]);
 
-    const [darkMode, setDarkMode] = useState(false);
-
     const toggleDarkMode = () => {
         const newMode = !darkMode;
-        setDarkMode(newMode);
-        onDarkModeChange(newMode); // Llama a la función proporcionada por la prop onDarkModeChange
-        localStorage.setItem('darkMode', newMode);
-    };
+        onDarkModeChange(newMode);
+      };
 
     /*<button className='header__button'><img src="https://flagsapi.com/GB/shiny/64.png" alt="language" className='header__button--flag' /></button>*/
     return (

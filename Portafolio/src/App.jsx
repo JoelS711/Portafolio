@@ -19,10 +19,11 @@ function App() {
 
   const handleDarkModeChange = (newMode) => {
     setDarkMode(newMode);
+    localStorage.setItem('darkMode', newMode);
   };
   return(
     <main className={`App ${darkMode ? 'dark-mode' : ''}`}>
-    <Header onDarkModeChange={handleDarkModeChange}/>
+    <Header darkMode={darkMode} onDarkModeChange={handleDarkModeChange}/>
     <Presentation/>
     <Download/>
     <About/>

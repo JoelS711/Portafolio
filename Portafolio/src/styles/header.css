@@ -90,8 +90,6 @@ html {
 
 .toggle-switch {
   position: relative;
-  width: 6rem;
-  height: 2rem;
   --light: #d8dbe0;
   --dark: #8436d2;
   --link: rgb(0, 0, 0);

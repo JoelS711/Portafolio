@@ -1,55 +1,52 @@
 /* APP */
 
-.dark-mode{
+.dark-mode {
+  background-color: black;
+  transition: background-color 1s ease;
+  p {
+    color: white;
+  }
+  span {
+    color: white;
+  }
+  h3 {
+    color: white;
+  }
+
+  .header-scroll {
     background-color: black;
-    transition: background-color 1s ease;
-    p{
-        color: white;
-    }
-    span{
-        color: white;
-    }
-    h3{
-        color: white;
-    }
+  }
 
-    .header-scroll{
-        background-color: black;
-    }
+  .header__menu--link {
+    color: white;
+  }
 
-    .header__menu--link{
-        color: white;
-    }
-    
-    .header__logo--img{
+  .header__logo--img {
     filter: drop-shadow(0 0 0.4rem rgba(255, 255, 255, 0.8));
-}
+  }
 
-    .about__cards--card{
-        background-color: black;
-    }
+  .about__cards--card {
+    background-color: black;
+  }
 
-    .proyects__card{
-        background-color: black;
-        border: 2px solid var(--second-color);
+  .proyects__card {
+    background-color: black;
+    border: 2px solid var(--second-color);
+  }
 
-    }
+  .proyects__figure {
+    background-color: var(--second-color);
+  }
 
-    .proyects__figure{
-        background-color: var(--second-color);
-    }
+  .skills__item {
+    border: 2px solid var(--second-color);
+  }
 
-    .skills__item{
-        border: 2px solid var(--second-color);
-    }
+  .skills__name {
+    color: #fff;
+  }
 
-    .skills__name{
-        color: #fff;
-    }
-
-    .contact__card{
-        background-color: black;
-
-    }
-
+  .contact__card {
+    background-color: black;
+  }
 }

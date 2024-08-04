@@ -8,24 +8,23 @@
 /* Global Styles */
 :root {
   --font-color: #4f4f4f;
-  --second-color: #8436D2;
+  --second-color: #8436d2;
   --third-color: #e7e7e7;
 }
 
 body {
-  width: 100vw;
+  width: 100%;
   height: 100dvh;
   font-family: "Poppins", sans-serif;
   color: var(--font-color);
 }
 
-
-h2{
+h2 {
   font-size: 3rem;
   color: var(--second-color);
 }
 
-.separator{
+.separator {
   display: flex;
   justify-content: center;
   width: 100%;

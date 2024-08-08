@@ -1,0 +1,8 @@
+{
+  "portfolio": {
+    "introduction": "Welcome to my portfolio. I am a software engineer with experience in web development, IoT, and microservices.",
+    "project_react": "This project is built with React and supports a dark mode for a better user experience.",
+    "project_iot": "In this IoT project, I programmed home automation devices from scratch, focusing on IPv6.",
+    "footer": "Thank you for visiting my portfolio. Feel free to contact me for more information!"
+  }
+}

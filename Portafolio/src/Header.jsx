@@ -25,7 +25,13 @@ export function Header({ darkMode, onDarkModeChange }) {
     onDarkModeChange(newMode);
   };
 
-  /**/
+  /*<button className="header__button">
+          <img
+            src="https://flagsapi.com/GB/shiny/64.png"
+            alt="language"
+            className="header__button--flag"
+          />
+        </button>*/
   return (
     <header className={visible ? "header-scroll" : "header"}>
       <div className="header__container">
@@ -63,13 +69,7 @@ export function Header({ darkMode, onDarkModeChange }) {
             </li>
           </ul>
         </nav>
-        <button className="header__button">
-          <img
-            src="https://flagsapi.com/GB/shiny/64.png"
-            alt="language"
-            className="header__button--flag"
-          />
-        </button>
+
         <div className="header__buttons">
           <div className="toggle-switch">
             <label className="switch-label">

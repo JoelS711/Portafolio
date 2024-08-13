@@ -1,0 +1,214 @@
+[
+  {
+    "image": "tienda.png",
+    "nameProyect": "Branch Store",
+    "icons": [
+      {
+        "src": "html.png",
+        "alt": "HTML Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "css.png",
+        "alt": "CSS Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "java.png",
+        "alt": "Java Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "mongo.png",
+        "alt": "MongoDB Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "spring.png",
+        "alt": "Spring Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "angular.png",
+        "alt": "Angular Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "mysql.png",
+        "alt": "mySQL Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "docker.png",
+        "alt": "Docker Logo",
+        "className": "proyects__icon--img"
+      }
+    ],
+    "description": "A sales system integrated with Angular for the frontend and Java with Spring Boot for the backend, supported by relational and non-relational databases, offering a comprehensive and scalable platform to efficiently manage sales processes, inventory, and data analysis, with a modern interface and robust functionality.",
+    "github": "https://github.com/JoelS711/backTiendaGenerica",
+    "preview": "https://shop-front-services.onrender.com/home"
+  },
+  {
+    "image": "encripdecrip.png",
+    "nameProyect": "Encrypt and Decrypt",
+    "icons": [
+      {
+        "src": "html.png",
+        "alt": "HTML Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "css.png",
+        "alt": "CSS Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "js.png",
+        "alt": "JavaScript Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "python.png",
+        "alt": "Python Logo",
+        "className": "proyects__icon--img"
+      }
+    ],
+    "description": "Encryptor is a web tool that allows users to encrypt and decrypt inputted words, with an intuitive interface.",
+    "github": "https://github.com/JoelS711/AluraChallenge",
+    "preview": "https://joels711.github.io/AluraChallenge/"
+  },
+  {
+    "image": "f1.png",
+    "nameProyect": "Formula 1",
+    "icons": [
+      {
+        "src": "html.png",
+        "alt": "HTML Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "css.png",
+        "alt": "CSS Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "js.png",
+        "alt": "JavaScript Logo",
+        "className": "proyects__icon--img"
+      }
+    ],
+    "description": "This page is designed to consume data from a Formula 1 API, offering a dynamic and updated experience on events, statistics, and details related to the thrilling world of Formula 1 racing.",
+    "github": "https://github.com/JoelS711/Api-JS/tree/master/F1",
+    "preview": "https://joels711.github.io/Api-JS/F1/index.html"
+  },
+  {
+    "image": "EssenceAtelier.png",
+    "nameProyect": "Essence Atelier",
+    "icons": [
+      {
+        "src": "html.png",
+        "alt": "HTML Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "css.png",
+        "alt": "CSS Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "js.png",
+        "alt": "JavaScript Logo",
+        "className": "proyects__icon--img"
+      }
+    ],
+    "description": "This website for Essence Atelier showcases artisanal soaps and candles. It uses the Poppins font and an interactive image carousel with Swiper.js to display products. The smooth navigation between sections enhances the user experience.",
+    "github": "https://github.com/JoelS711/EssenceAtelier",
+    "preview": "https://joels711.github.io/EssenceAtelier/"
+  },
+  {
+    "image": "weather.png",
+    "nameProyect": "Weather",
+    "icons": [
+      {
+        "src": "html.png",
+        "alt": "HTML Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "css.png",
+        "alt": "CSS Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "js.png",
+        "alt": "JavaScript Logo",
+        "className": "proyects__icon--img"
+      }
+    ],
+    "description": "The Weather API provides access to up-to-date weather data and forecasts, allowing developers to integrate accurate weather information into their applications and websites.",
+    "github": "https://github.com/JoelS711/Api-JS/tree/master/Weather",
+    "preview": "https://joels711.github.io/Api-JS/Weather/index.html"
+  },
+  {
+    "image": "cirujano.png",
+    "nameProyect": "Plastic Surgeon",
+    "icons": [
+      {
+        "src": "html.png",
+        "alt": "HTML Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "css.png",
+        "alt": "CSS Logo",
+        "className": "proyects__icon--img"
+      }
+    ],
+    "description": "A website for a plastic surgeon created with HTML and CSS presents clear and detailed information about the services offered, available procedures, and patient testimonials, with an elegant and professional design that reflects the surgeon's expertise and quality.",
+    "github": "https://github.com/JoelS711/LandingPages/tree/master/CirujanoPlastico",
+    "preview": "https://joels711.github.io/LandingPages/CirujanoPlastico/index.html"
+  },
+  {
+    "image": "abogado.png",
+    "nameProyect": "Lawyer",
+    "icons": [
+      {
+        "src": "html.png",
+        "alt": "HTML Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "css.png",
+        "alt": "CSS Logo",
+        "className": "proyects__icon--img"
+      }
+    ],
+    "description": "The lawyer's website, developed exclusively with HTML and CSS, offers a clear and professional presentation of the legal services offered, areas of expertise, and client testimonials, providing a reliable and transparent experience for visitors seeking legal advice.",
+    "github": "https://github.com/JoelS711/LandingPages/tree/master/Abogado",
+    "preview": "https://joels711.github.io/LandingPages/Abogado/index.html"
+  },
+  {
+    "image": "pokemon.png",
+    "nameProyect": "Pokemon",
+    "icons": [
+      {
+        "src": "html.png",
+        "alt": "HTML Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "css.png",
+        "alt": "CSS Logo",
+        "className": "proyects__icon--img"
+      },
+      {
+        "src": "js.png",
+        "alt": "JavaScript Logo",
+        "className": "proyects__icon--img"
+      }
+    ],
+    "description": "Access essential data about Pokémon, such as species, moves, and abilities, through the integration of a specialized API, facilitating the creation of applications focused on the Pokémon world.",
+    "github": "https://github.com/JoelS711/Api-JS/tree/master/Pokemon",
+    "preview": "https://joels711.github.io/Api-JS/Pokemon/index.html"
+  }
+]

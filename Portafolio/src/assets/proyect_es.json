@@ -1,0 +1,60 @@
+{
+  "header": {
+    "navbar": [
+      { "text": "Acerca de mí", "link": "#about" },
+      { "text": "Experiencia", "link": "#experience" },
+      { "text": "Proyectos", "link": "#projects" },
+      { "text": "Habilidades", "link": "#skills" },
+      { "text": "Contacto", "link": "#contact" }
+    ]
+  },
+  "presentation": {
+    "title": "Desarrollador de Software",
+    "description": "Diseño y desarrollo aplicaciones funcionales y estéticas con pasión y atención al detalle. Enfocado en brindar una experiencia de usuario excepcional y garantizar la más alta calidad en cada proyecto."
+  },
+  "button_cv": {
+    "download_cv": "Descargar CV"
+  },
+  "sections": {
+    "about_me": {
+      "title": "Acerca de mí",
+      "description": "Soy un apasionado desarrollador de software con experiencia en tecnologías modernas. Me encanta trabajar en proyectos desafiantes y colaborar con equipos creativos para ofrecer soluciones innovadoras. Mi enfoque se centra en crear experiencias digitales impactantes y de alta calidad que mejoren la vida de las personas.",
+      "additionalInfo": {
+        "1": "Soy un desarrollador con más de un año de experiencia en mis propios proyectos, enfocado en la innovación y la resolución creativa de problemas.",
+        "2": "Egresado como tecnólogo en sistemas de la Universidad ECCI y actualmente estudiante de Ingeniería de Software.",
+        "3": "Diplomado en desarrollo de software en la Universidad del Bosque y MinTic."
+      }
+    },
+    "experience": {
+      "title": "Experiencia Laboral",
+      "jobs": [
+        {
+          "date": "Mayo 2017 - Julio 2021",
+          "company": "Acer Latam",
+          "position": "Asesor",
+          "description": "Trabajé como Asesor Comercial, brindando asesoramiento en software y hardware. Logré aumentar las ventas y mejorar la satisfacción del cliente, desarrollando habilidades comerciales y tecnológicas clave."
+        },
+        {
+          "date": "Enero 2022 - Enero 2024",
+          "company": "Colombia Movil - TIGO",
+          "position": "Asesor",
+          "description": "Trabajé en el área de Redes y Telecomunicaciones como especialista en atención al cliente, brindando soporte y realizando ventas. Esta experiencia fortaleció mis habilidades en comunicación y resolución de problemas."
+        }
+      ]
+    },
+    "projects": {
+      "title": "Proyectos",
+      "description": "He trabajado en proyectos utilizando Java, JavaScript, Spring Boot, HTML, CSS, Angular, React y Python, entre otros. Mi enfoque abarca desde aplicaciones web hasta backend, trabajando con bases de datos relacionales y no relacionales para garantizar la calidad y eficiencia en cada proyecto."
+    },
+    "skills": {
+      "title": "Habilidades"
+    },
+    "contact": {
+      "title": "Contacto",
+      "description": "Estoy disponible para considerar cualquier oportunidad profesional o propuesta de colaboración que pueda surgir. Si tienes alguna idea que te gustaría discutir o compartir, no dudes en ponerte en contacto conmigo. Estaré encantado de responder a la brevedad posible y explorar cómo podemos colaborar juntos."
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 JoelS. Algunos derechos reservados."
+  }
+}

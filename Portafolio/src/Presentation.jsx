@@ -1,16 +1,12 @@
 import "./styles/presentation.css";
 
-export function Presentation() {
+export function Presentation({ content }) {
   return (
     <section className="presentation">
       <div className="presentation__container">
         <h1 className="presentation__name">Emanuel Gelvez</h1>
-        <h2 className="presentation__subtitle">Desarrollador de Software</h2>
-        <p>
-          Diseño y desarrollo aplicaciones funcionales y estéticas con pasión y
-          atención al detalle. Enfocado en brindar una experiencia de usuario
-          excepcional y garantizar la más alta calidad en cada proyecto.
-        </p>
+        <h2 className="presentation__subtitle">{content.presentation.title}</h2>
+        <p>{content.presentation.description}</p>
         <figure className="presentation__icons">
           <a
             href="https://www.youtube.com/@joels3356"

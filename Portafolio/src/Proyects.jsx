@@ -1,5 +1,5 @@
 import "./styles/proyects.css";
-import dataProyect_es from "./assets/dataProyect_es.json";
+import dataProjects_es from "./assets/dataProjects_es.json";
 
 export function Proyects() {
   return (
@@ -17,7 +17,7 @@ export function Proyects() {
           en cada proyecto.
         </p>
         <article className="proyects__cards">
-          {dataProyect_es.map((proyect, index) => (
+          {dataProjects_es.map((proyect, index) => (
             <div className="proyects__card" key={index}>
               <div className="proyects__image">
                 <figure className="proyects__figure">

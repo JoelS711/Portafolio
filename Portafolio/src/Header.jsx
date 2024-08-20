@@ -1,9 +1,17 @@
 import "./styles/header.css";
 import React, { useState, useEffect } from "react";
 
-export function Header({ darkMode, onDarkModeChange }) {
+export function Header({
+  darkMode,
+  onDarkModeChange,
+  language,
+  onLanguageChange,
+  content,
+}) {
   const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
   const [visible, setVisible] = useState(true);
+
+  const storedLanguage = localStorage.getItem("language") || "es";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,6 +33,11 @@ export function Header({ darkMode, onDarkModeChange }) {
     onDarkModeChange(newMode);
   };
 
+  const changeLanguage = () => {
+    const newLanguage = language === "es" ? "en" : "es";
+    onLanguageChange(newLanguage);
+  };
+
   /**/
   return (
     <header className={visible ? "header-scroll" : "header"}>
@@ -38,34 +51,38 @@ export function Header({ darkMode, onDarkModeChange }) {
           <ul className="header__menu">
             <li className="header__menu-item">
               <a href="#about" className="header__menu--link">
-                Acerca de mi
+                {content.header.navbar[0].text}
               </a>
             </li>
             <li className="header__menu-item">
               <a href="#experience" className="header__menu--link">
-                Experiencia
+                {content.header.navbar[1].text}
               </a>
             </li>
             <li className="header__menu-item">
               <a href="#proyects" className="header__menu--link">
-                Proyectos
+                {content.header.navbar[2].text}
               </a>
             </li>
             <li className="header__menu-item">
               <a href="#skills" className="header__menu--link">
-                Habilidades
+                {content.header.navbar[3].text}
               </a>
             </li>
             <li className="header__menu-item">
               <a href="#contact" className="header__menu--link">
-                Contacto
+                {content.header.navbar[4].text}
               </a>
             </li>
           </ul>
         </nav>
-        <button className="header__button">
+        <button className="header__button" onClick={changeLanguage}>
           <img
-            src="https://flagsapi.com/US/shiny/64.png"
+            src={
+              language === "es"
+                ? "https://flagsapi.com/US/shiny/64.png"
+                : "https://flagsapi.com/ES/shiny/64.png"
+            }
             alt="language"
             className="header__button--flag"
           />

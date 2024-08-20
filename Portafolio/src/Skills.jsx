@@ -1,5 +1,5 @@
 import "./styles/skills.css";
-import dataSkill from "./assets/dataProyect_es.json";
+import dataSkill from "./assets/dataProjects_es.json";
 
 export function Skills() {
   let allSkills = [];

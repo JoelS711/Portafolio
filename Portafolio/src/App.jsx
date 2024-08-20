@@ -10,8 +10,15 @@ import { Skills } from "./Skills.jsx";
 import { Contact } from "./Contact.jsx";
 import { Footer } from "./Footer.jsx";
 
+import spanishContent from "./assets/projectContent_es.json";
+import englishContent from "./assets/projectContent_en.json";
+
 function App() {
   const [darkMode, setDarkMode] = useState(false);
+  const storedLanguage = localStorage.getItem("language") || "es";
+  const [language, setLanguage] = useState(storedLanguage);
+
+  const content = language === "es" ? spanishContent : englishContent;
 
   useEffect(() => {
     const isDarkMode = localStorage.getItem("darkMode") === "true";
@@ -22,10 +29,22 @@ function App() {
     setDarkMode(newMode);
     localStorage.setItem("darkMode", newMode);
   };
+
+  const handleLanguageChange = (newLanguage) => {
+    setLanguage(newLanguage);
+    localStorage.setItem("language", newLanguage);
+  };
+
   return (
     <main className={`App ${darkMode ? "dark-mode" : ""}`}>
-      <Header darkMode={darkMode} onDarkModeChange={handleDarkModeChange} />
-      <Presentation />
+      <Header
+        darkMode={darkMode}
+        onDarkModeChange={handleDarkModeChange}
+        language={language}
+        onLanguageChange={handleLanguageChange}
+        content={content}
+      />
+      <Presentation content={content} />
       <Download />
       <About />
       <Experience />

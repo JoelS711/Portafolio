@@ -1,0 +1,67 @@
+{
+  "header": {
+    "navbar": [
+      { "text": "About Me", "link": "#about" },
+      { "text": "Experience", "link": "#experience" },
+      { "text": "Projects", "link": "#projects" },
+      { "text": "Skills", "link": "#skills" },
+      { "text": "Contact", "link": "#contact" }
+    ]
+  },
+  "presentation": {
+    "title": "Software Developer",
+    "description": "I design and develop functional and aesthetically pleasing applications with passion and attention to detail. Focused on providing an exceptional user experience and ensuring the highest quality in every project."
+  },
+  "button_cv": {
+    "download_cv": "Download CV"
+  },
+  "sections": {
+    "about_me": {
+      "title": "About Me",
+      "description": "I am a passionate software developer with experience in modern technologies. I love working on challenging projects and collaborating with creative teams to deliver innovative solutions. My focus is on creating impactful, high-quality digital experiences that improve people's lives.",
+      "additionalInfo": {
+        "1": "I am a developer with over a year of experience working on my own projects, focused on innovation and creative problem-solving.",
+        "2": "Graduated as a systems technologist from Universidad ECCI and currently a student of Software Engineering.",
+        "3": "Diploma in software development from Universidad del Bosque and MinTic."
+      }
+    },
+    "experience": {
+      "title": "Work Experience",
+      "jobs": [
+        {
+          "date": "May 2017 - July 2021",
+          "company": "Acer Latam",
+          "position": "Advisor",
+          "description": "Worked as a Commercial Advisor, providing advice on software and hardware. I achieved increased sales and improved customer satisfaction, developing key commercial and technological skills."
+        },
+        {
+          "date": "January 2022 - January 2024",
+          "company": "Colombia Movil - TIGO",
+          "position": "Advisor",
+          "description": "Worked in the Networks and Telecommunications area as a customer service specialist, providing support and making sales. This experience strengthened my communication and problem-solving skills."
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "I have worked on projects using Java, JavaScript, Spring Boot, HTML, CSS, Angular, React, and Python, among others. My focus ranges from web applications to backend development, working with relational and non-relational databases to ensure quality and efficiency in each project."
+    },
+    "skills": {
+      "title": "Skills"
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "I am available to consider any professional opportunities or collaboration proposals that may arise. If you have an idea you would like to discuss or share, feel free to contact me. I will be happy to respond promptly and explore how we can collaborate together."
+    }
+  },
+  "footer": {
+    "navbar": [
+      { "text": "About Me", "link": "#about" },
+      { "text": "Experience", "link": "#experience" },
+      { "text": "Projects", "link": "#projects" },
+      { "text": "Skills", "link": "#skills" },
+      { "text": "Contact", "link": "#contact" }
+    ],
+    "copyright": "© 2024 JoelS. Some rights reserved."
+  }
+}

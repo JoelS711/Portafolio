@@ -55,6 +55,13 @@
     }
   },
   "footer": {
+    "navbar": [
+      { "text": "Acerca de mí", "link": "#about" },
+      { "text": "Experiencia", "link": "#experience" },
+      { "text": "Proyectos", "link": "#projects" },
+      { "text": "Habilidades", "link": "#skills" },
+      { "text": "Contacto", "link": "#contact" }
+    ],
     "copyright": "© 2024 JoelS. Algunos derechos reservados."
   }
 }

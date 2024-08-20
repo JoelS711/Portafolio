@@ -65,7 +65,7 @@ export function Header({ darkMode, onDarkModeChange }) {
         </nav>
         <button className="header__button">
           <img
-            src="https://flagsapi.com/GB/shiny/64.png"
+            src="https://flagsapi.com/US/shiny/64.png"
             alt="language"
             className="header__button--flag"
           />

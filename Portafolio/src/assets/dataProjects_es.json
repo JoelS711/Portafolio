@@ -49,11 +49,11 @@
     "preview": "https://shop-front-services.onrender.com/home"
   },
   {
-    "image": "encripdecrip.png",
+    "image": "encripdecrip.jpg",
     "nameProyect": "Encriptar y Desencriptar",
     "icons": [
       {
-        "src": "html.jpg",
+        "src": "html.png",
         "alt": "HTML Logo",
         "className": "proyects__icon--img"
       },

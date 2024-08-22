@@ -1,6 +1,6 @@
 [
   {
-    "image": "tienda.png",
+    "image": "tienda.jpg",
     "nameProyect": "Branch Store",
     "icons": [
       {
@@ -49,7 +49,7 @@
     "preview": "https://shop-front-services.onrender.com/home"
   },
   {
-    "image": "encripdecrip.png",
+    "image": "encripdecrip.jpg",
     "nameProyect": "Encrypt and Decrypt",
     "icons": [
       {
@@ -78,7 +78,7 @@
     "preview": "https://joels711.github.io/AluraChallenge/"
   },
   {
-    "image": "f1.png",
+    "image": "f1.jpg",
     "nameProyect": "Formula 1",
     "icons": [
       {
@@ -102,7 +102,7 @@
     "preview": "https://joels711.github.io/Api-JS/F1/index.html"
   },
   {
-    "image": "EssenceAtelier.png",
+    "image": "essenceatelier.jpg",
     "nameProyect": "Essence Atelier",
     "icons": [
       {
@@ -126,7 +126,7 @@
     "preview": "https://joels711.github.io/EssenceAtelier/"
   },
   {
-    "image": "weather.png",
+    "image": "weather.jpg",
     "nameProyect": "Weather",
     "icons": [
       {
@@ -150,7 +150,7 @@
     "preview": "https://joels711.github.io/Api-JS/Weather/index.html"
   },
   {
-    "image": "cirujano.png",
+    "image": "cirujano.jpg",
     "nameProyect": "Plastic Surgeon",
     "icons": [
       {
@@ -169,7 +169,7 @@
     "preview": "https://joels711.github.io/LandingPages/CirujanoPlastico/index.html"
   },
   {
-    "image": "abogado.png",
+    "image": "abogado.jpg",
     "nameProyect": "Lawyer",
     "icons": [
       {
@@ -188,7 +188,7 @@
     "preview": "https://joels711.github.io/LandingPages/Abogado/index.html"
   },
   {
-    "image": "pokemon.png",
+    "image": "pokemon.jpg",
     "nameProyect": "Pokemon",
     "icons": [
       {

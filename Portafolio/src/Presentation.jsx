@@ -56,7 +56,7 @@ export function Presentation({ content }) {
       </div>
       <figure>
         <img
-          src="/profile.png"
+          src="/profile.jpg"
           alt="Imagen de Perfil"
           className="presentation__image"
         />

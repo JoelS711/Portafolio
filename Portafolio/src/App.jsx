@@ -46,7 +46,7 @@ function App() {
       />
       <Presentation content={content} />
       <Download content={content} />
-      <About />
+      <About content={content} />
       <Experience />
       <Proyects />
       <Skills />

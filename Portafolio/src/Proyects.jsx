@@ -1,23 +1,18 @@
 import "./styles/proyects.css";
-import dataProjects_es from "./assets/dataProjects_es.json";
 
-export function Proyects() {
+export function Proyects({ content, dataProjects }) {
   return (
     <>
       <section className="separator">
         <div className="separator__line"></div>
       </section>
       <section className="proyects" id="proyects">
-        <h2 className="proyects__title">Proyectos</h2>
+        <h2 className="proyects__title">{content.sections.projects.title}</h2>
         <p className="proyects__description">
-          He trabajo en proyectos utilizando Java, JavaScript, Spring Boot,
-          HTML, CSS, Angular, React y Python, entre otros. Mi enfoque abarca
-          desde aplicaciones web hasta backend, trabajando con bases de datos
-          relacionales y no relacionales para garantizar la calidad y eficiencia
-          en cada proyecto.
+          {content.sections.projects.description}
         </p>
         <article className="proyects__cards">
-          {dataProjects_es.map((proyect, index) => (
+          {dataProjects.map((proyect, index) => (
             <div className="proyects__card" key={index}>
               <div className="proyects__image">
                 <figure className="proyects__figure">

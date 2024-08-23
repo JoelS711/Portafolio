@@ -1,47 +1,47 @@
 [
   {
     "image": "tienda.jpg",
-    "nameProyect": "Branch Store",
+    "nameProject": "Branch Store",
     "icons": [
       {
         "src": "html.png",
         "alt": "HTML Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "css.png",
         "alt": "CSS Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "java.png",
         "alt": "Java Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "mongo.png",
         "alt": "MongoDB Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "spring.png",
         "alt": "Spring Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "angular.png",
         "alt": "Angular Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "mysql.png",
         "alt": "mySQL Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "docker.png",
         "alt": "Docker Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       }
     ],
     "description": "A sales system integrated with Angular for the frontend and Java with Spring Boot for the backend, supported by relational and non-relational databases, offering a comprehensive and scalable platform to efficiently manage sales processes, inventory, and data analysis, with a modern interface and robust functionality.",
@@ -50,27 +50,27 @@
   },
   {
     "image": "encripdecrip.jpg",
-    "nameProyect": "Encrypt and Decrypt",
+    "nameProject": "Encrypt and Decrypt",
     "icons": [
       {
         "src": "html.png",
         "alt": "HTML Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "css.png",
         "alt": "CSS Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "js.png",
         "alt": "JavaScript Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "python.png",
         "alt": "Python Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       }
     ],
     "description": "Encryptor is a web tool that allows users to encrypt and decrypt inputted words, with an intuitive interface.",
@@ -79,22 +79,22 @@
   },
   {
     "image": "f1.jpg",
-    "nameProyect": "Formula 1",
+    "nameProject": "Formula 1",
     "icons": [
       {
         "src": "html.png",
         "alt": "HTML Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "css.png",
         "alt": "CSS Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "js.png",
         "alt": "JavaScript Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       }
     ],
     "description": "This page is designed to consume data from a Formula 1 API, offering a dynamic and updated experience on events, statistics, and details related to the thrilling world of Formula 1 racing.",
@@ -103,22 +103,22 @@
   },
   {
     "image": "essenceatelier.jpg",
-    "nameProyect": "Essence Atelier",
+    "nameProject": "Essence Atelier",
     "icons": [
       {
         "src": "html.png",
         "alt": "HTML Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "css.png",
         "alt": "CSS Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "js.png",
         "alt": "JavaScript Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       }
     ],
     "description": "This website for Essence Atelier showcases artisanal soaps and candles. It uses the Poppins font and an interactive image carousel with Swiper.js to display products. The smooth navigation between sections enhances the user experience.",
@@ -127,22 +127,22 @@
   },
   {
     "image": "weather.jpg",
-    "nameProyect": "Weather",
+    "nameProject": "Weather",
     "icons": [
       {
         "src": "html.png",
         "alt": "HTML Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "css.png",
         "alt": "CSS Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "js.png",
         "alt": "JavaScript Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       }
     ],
     "description": "The Weather API provides access to up-to-date weather data and forecasts, allowing developers to integrate accurate weather information into their applications and websites.",
@@ -151,17 +151,17 @@
   },
   {
     "image": "cirujano.jpg",
-    "nameProyect": "Plastic Surgeon",
+    "nameProject": "Plastic Surgeon",
     "icons": [
       {
         "src": "html.png",
         "alt": "HTML Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "css.png",
         "alt": "CSS Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       }
     ],
     "description": "A website for a plastic surgeon created with HTML and CSS presents clear and detailed information about the services offered, available procedures, and patient testimonials, with an elegant and professional design that reflects the surgeon's expertise and quality.",
@@ -170,17 +170,17 @@
   },
   {
     "image": "abogado.jpg",
-    "nameProyect": "Lawyer",
+    "nameProject": "Lawyer",
     "icons": [
       {
         "src": "html.png",
         "alt": "HTML Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "css.png",
         "alt": "CSS Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       }
     ],
     "description": "The lawyer's website, developed exclusively with HTML and CSS, offers a clear and professional presentation of the legal services offered, areas of expertise, and client testimonials, providing a reliable and transparent experience for visitors seeking legal advice.",
@@ -189,22 +189,22 @@
   },
   {
     "image": "pokemon.jpg",
-    "nameProyect": "Pokemon",
+    "nameProject": "Pokemon",
     "icons": [
       {
         "src": "html.png",
         "alt": "HTML Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "css.png",
         "alt": "CSS Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       },
       {
         "src": "js.png",
         "alt": "JavaScript Logo",
-        "className": "proyects__icon--img"
+        "className": "projects__icon--img"
       }
     ],
     "description": "Access essential data about Pokémon, such as species, moves, and abilities, through the integration of a specialized API, facilitating the creation of applications focused on the Pokémon world.",

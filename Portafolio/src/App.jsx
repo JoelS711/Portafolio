@@ -5,7 +5,7 @@ import { Presentation } from "./Presentation.jsx";
 import { Download } from "./Download.jsx";
 import { About } from "./About.jsx";
 import { Experience } from "./Experience.jsx";
-import { Proyects } from "./Proyects.jsx";
+import { Projects } from "./Projects.jsx";
 import { Skills } from "./Skills.jsx";
 import { Contact } from "./Contact.jsx";
 import { Footer } from "./Footer.jsx";
@@ -51,7 +51,7 @@ function App() {
       <Download content={content} />
       <About content={content} />
       <Experience content={content} />
-      <Proyects content={content} dataProjects={dataProjects} />
+      <Projects content={content} dataProjects={dataProjects} />
       <Skills />
       <Contact />
       <Footer />

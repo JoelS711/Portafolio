@@ -13,13 +13,16 @@ import { Footer } from "./Footer.jsx";
 import spanishContent from "./assets/projectContent_es.json";
 import englishContent from "./assets/projectContent_en.json";
 
+import dataProjects_es from "./assets/dataProjects_es.json";
+import dataProjects_en from "./assets/dataProjects_en.json";
+
 function App() {
   const [darkMode, setDarkMode] = useState(false);
   const storedLanguage = localStorage.getItem("language") || "es";
   const [language, setLanguage] = useState(storedLanguage);
 
   const content = language === "es" ? spanishContent : englishContent;
-
+  const dataProjects = language === "es" ? dataProjects_es : dataProjects_en;
   useEffect(() => {
     const isDarkMode = localStorage.getItem("darkMode") === "true";
     setDarkMode(isDarkMode);
@@ -47,8 +50,8 @@ function App() {
       <Presentation content={content} />
       <Download content={content} />
       <About content={content} />
-      <Experience />
-      <Proyects />
+      <Experience content={content} />
+      <Proyects content={content} dataProjects={dataProjects} />
       <Skills />
       <Contact />
       <Footer />

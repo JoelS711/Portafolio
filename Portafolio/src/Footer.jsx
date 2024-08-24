@@ -1,6 +1,6 @@
 import "./styles/footer.css";
 
-export function Footer() {
+export function Footer({ content }) {
   return (
     <section className="footer">
       <figure className="footer__icons">
@@ -52,33 +52,31 @@ export function Footer() {
       <ul className="footer__menu">
         <li className="footer__menu-item">
           <a href="#about" className="footer__menu--link">
-            Acerca de mi
+            {content.footer.navbar[0].text}
           </a>
         </li>
         <li className="footer__menu-item">
           <a href="#experience" className="footer__menu--link">
-            Experiencia
+            {content.footer.navbar[1].text}
           </a>
         </li>
         <li className="footer__menu-item">
-          <a href="#proyects" className="footer__menu--link">
-            Proyectos
+          <a href="#projects" className="footer__menu--link">
+            {content.footer.navbar[2].text}
           </a>
         </li>
         <li className="footer__menu-item">
           <a href="#skills" className="footer__menu--link">
-            Habilidades
+            {content.footer.navbar[3].text}
           </a>
         </li>
         <li className="footer__menu-item">
           <a href="#contact" className="footer__menu--link">
-            Contacto
+            {content.footer.navbar[4].text}
           </a>
         </li>
       </ul>
-      <p className="footer__p">
-        &copy; 2024 JoelS. Algunos derechos reservados.
-      </p>
+      <p className="footer__p">{content.footer.copyright}</p>
     </section>
   );
 }

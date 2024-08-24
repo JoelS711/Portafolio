@@ -1,7 +1,7 @@
 import "./styles/skills.css";
 import dataSkill from "./assets/dataProjects_es.json";
 
-export function Skills() {
+export function Skills({ content }) {
   let allSkills = [];
   dataSkill.forEach((data) => {
     data.icons.forEach((icon) => {
@@ -19,7 +19,7 @@ export function Skills() {
         <div className="separator__line"></div>
       </section>
       <section className="skills" id="skills">
-        <h2 className="skills__title">Habilidades</h2>
+        <h2 className="skills__title">{content.sections.skills.title}</h2>
         <figure className="skills__figure">
           {uniqueSkills.map((skill, index) => (
             <div key={index} className="skills__item">

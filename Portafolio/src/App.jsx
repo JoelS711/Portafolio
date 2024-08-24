@@ -52,9 +52,9 @@ function App() {
       <About content={content} />
       <Experience content={content} />
       <Projects content={content} dataProjects={dataProjects} />
-      <Skills />
-      <Contact />
-      <Footer />
+      <Skills content={content} />
+      <Contact content={content} />
+      <Footer content={content} />
     </main>
   );
 }

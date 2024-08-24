@@ -48,7 +48,7 @@ function App() {
         content={content}
       />
       <Presentation content={content} />
-      <Download content={content} />
+      <Download content={content} language={language}/>
       <About content={content} />
       <Experience content={content} />
       <Projects content={content} dataProjects={dataProjects} />

@@ -5,20 +5,18 @@ export function Download({ content, language }) {
     const link = document.createElement("a");
     let cvPath = "./src/assets/CV - Emanuel Gelvez.pdf";
 
-    if(language === "en"){
+    if (language === "en") {
       cvPath = "./src/assets/CV - Emanuel Gelvez - EN.pdf";
     }
 
     link.href = cvPath;
-    link.download = language === "en" ? "CV - Emanuel Gelvez - EN.pdf" : "CV - Emanuel Gelvez.pdf";
+    link.download =
+      language === "en"
+        ? "CV - Emanuel Gelvez - EN.pdf"
+        : "CV - Emanuel Gelvez.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    /*link.href = "./src/assets/CV - Emanuel Gelvez.pdf";
-    link.download = "CV - Emanuel Gelvez.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);*/
   };
   return (
     <section className="download">

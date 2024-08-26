@@ -38,7 +38,6 @@ export function Header({
     onLanguageChange(newLanguage);
   };
 
-  /**/
   return (
     <header className={visible ? "header-scroll" : "header"}>
       <div className="header__container">

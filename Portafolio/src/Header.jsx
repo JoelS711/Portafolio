@@ -59,7 +59,7 @@ export function Header({
               </a>
             </li>
             <li className="header__menu-item">
-              <a href="#proyects" className="header__menu--link">
+              <a href="#projects" className="header__menu--link">
                 {content.header.navbar[2].text}
               </a>
             </li>

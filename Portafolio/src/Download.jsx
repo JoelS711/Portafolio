@@ -3,10 +3,10 @@ import "./styles/download.css";
 export function Download({ content, language }) {
   const downloadCV = () => {
     const link = document.createElement("a");
-    let cvPath = "./src/assets/CV - Emanuel Gelvez.pdf";
+    let cvPath = "CV/CV - Emanuel Gelvez.pdf";
 
     if (language === "en") {
-      cvPath = "./src/assets/CV - Emanuel Gelvez - EN.pdf";
+      cvPath = "CV/CV - Emanuel Gelvez - EN.pdf";
     }
 
     link.href = cvPath;

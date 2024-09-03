@@ -39,6 +39,12 @@
           "company": "Colombia Movil - TIGO",
           "position": "Advisor",
           "description": "Worked in the Networks and Telecommunications area as a customer service specialist, providing support and making sales. This experience strengthened my communication and problem-solving skills."
+        },
+        {
+          "date": "February 2023 - July 2024",
+          "company": "Freelance",
+          "position": "Software Developer",
+          "description": "Freelance developer specializing in frontend and backend web solutions, including projects like Essence Atelier and a generic store. Used React, JavaScript, Spring Boot, and Python, managing SQL and NoSQL databases."
         }
       ]
     },

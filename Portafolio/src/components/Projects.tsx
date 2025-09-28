@@ -1,7 +1,34 @@
+import { useState } from "react";
 import "@/styles/projects.css";
 import { ProjectsProps } from "../types/common";
+import { ImageCarousel } from "./ImageCarousel";
 
 export function Projects({ content, dataProjects }: ProjectsProps) {
+  const [carouselState, setCarouselState] = useState({
+    isOpen: false,
+    images: [] as string[],
+    projectName: "",
+    initialIndex: 0,
+  });
+
+  const openCarousel = (images: string[], projectName: string, initialIndex: number = 0) => {
+    setCarouselState({
+      isOpen: true,
+      images,
+      projectName,
+      initialIndex,
+    });
+  };
+
+  const closeCarousel = () => {
+    setCarouselState({
+      isOpen: false,
+      images: [],
+      projectName: "",
+      initialIndex: 0,
+    });
+  };
+
   return (
     <>
       <section className="separator">
@@ -16,11 +43,14 @@ export function Projects({ content, dataProjects }: ProjectsProps) {
           {dataProjects.map((project, index) => (
             <div className="projects__card" key={index}>
               <div className="projects__image">
-                <figure className="projects__figure">
+                <figure 
+                  className="projects__figure"
+                  onClick={() => openCarousel(project.images, project.nameProject, 0)}
+                >
                   <img
-                    src={`/Projects/${project.image}`}
+                    src={`${project.image}`}
                     alt={project.nameProject}
-                    className="projects__figure--img"
+                    className="projects__figure--img projects__figure--clickable"
                   />
                 </figure>
               </div>
@@ -38,30 +68,19 @@ export function Projects({ content, dataProjects }: ProjectsProps) {
                 </figure>
               </div>
               <p className="projects__description--p">{project.description}</p>
-              <div className="projects__buttons">
-                <button className="projects__button">
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    className="projects__button--link"
-                  >
-                    Github
-                  </a>
-                </button>
-                <button className="projects__button">
-                  <a
-                    href={project.preview}
-                    target="_blank"
-                    className="projects__button--link"
-                  >
-                    Preview
-                  </a>
-                </button>
-              </div>
             </div>
           ))}
         </article>
       </section>
+
+      {/* Image Carousel Modal */}
+      <ImageCarousel
+        images={carouselState.images}
+        projectName={carouselState.projectName}
+        isOpen={carouselState.isOpen}
+        onClose={closeCarousel}
+        initialIndex={carouselState.initialIndex}
+      />
     </>
   );
 }

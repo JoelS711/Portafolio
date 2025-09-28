@@ -12,9 +12,11 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import spanishContent from "./assets/projectContent_es.json";
 import englishContent from "./assets/projectContent_en.json";
+import portugueseContent from "./assets/projectContent_pt.json";
 
 import dataProjects_es from "./assets/dataProjects_es.json";
 import dataProjects_en from "./assets/dataProjects_en.json";
+import dataProjects_pt from "./assets/dataProjects_pt.json";
 import { Content } from './types/content';
 import { ProjectsData } from './types/projects';
 
@@ -26,8 +28,15 @@ function App() {
   const { darkMode, setDarkMode } = useDarkMode();
   const { language, changeLanguage } = useLanguage();
 
-  const content: Content = language === "es" ? spanishContent : englishContent;
-  const dataProjects: ProjectsData = language === "es" ? dataProjects_es : dataProjects_en;
+  const content: Content = 
+    language === "es" ? spanishContent : 
+    language === "en" ? englishContent : 
+    portugueseContent;
+    
+  const dataProjects: ProjectsData = 
+    language === "es" ? dataProjects_es : 
+    language === "en" ? dataProjects_en : 
+    dataProjects_pt;
 
   return (
     <main className={`App ${darkMode ? "dark-mode" : ""}`}>

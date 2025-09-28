@@ -1,5 +1,5 @@
 import "@/styles/header.css";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { HeaderProps } from "../types/common";
 
 export function Header({
@@ -11,6 +11,8 @@ export function Header({
 }: HeaderProps) {
   const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
   const [visible, setVisible] = useState(true);
+  const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,14 +29,40 @@ export function Header({
     };
   }, [prevScrollPos]);
 
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsLanguageDropdownOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   const toggleDarkMode = () => {
     const newMode = !darkMode;
     onDarkModeChange(newMode);
   };
 
-  const changeLanguage = () => {
-    const newLanguage = language === "es" ? "en" : "es";
-    onLanguageChange(newLanguage);
+  const languages = [
+    { code: "es", name: "Español", flag: "https://flagsapi.com/ES/shiny/64.png" },
+    { code: "en", name: "English", flag: "https://flagsapi.com/GB/shiny/64.png" },
+    { code: "pt", name: "Português", flag: "https://flagsapi.com/BR/shiny/64.png" }
+  ];
+
+  const currentLanguage = languages.find(lang => lang.code === language) || languages[0];
+
+  const handleLanguageSelect = (langCode: "es" | "en" | "pt") => {
+    onLanguageChange(langCode);
+    setIsLanguageDropdownOpen(false);
+  };
+
+  const toggleLanguageDropdown = () => {
+    setIsLanguageDropdownOpen(!isLanguageDropdownOpen);
   };
 
   return (
@@ -78,17 +106,49 @@ export function Header({
             </li>
           </ul>
         </nav>
-        <button className="header__button" onClick={changeLanguage}>
-          <img
-            src={
-              language === "es"
-                ? "https://flagsapi.com/GB/shiny/64.png"
-                : "https://flagsapi.com/ES/shiny/64.png"
-            }
-            alt="language"
-            className="header__button--flag"
-          />
-        </button>
+        <div className="header__language-dropdown" ref={dropdownRef}>
+          <button className="header__button" onClick={toggleLanguageDropdown}>
+            <img
+              src={currentLanguage.flag}
+              alt={currentLanguage.name}
+              className="header__button--flag"
+            />
+            <span className="header__button--text">{currentLanguage.name}</span>
+            <svg 
+              className={`header__button--arrow ${isLanguageDropdownOpen ? 'header__button--arrow-open' : ''}`}
+              width="12" 
+              height="12" 
+              viewBox="0 0 12 12" 
+              fill="currentColor"
+            >
+              <path d="M6 8L2 4h8L6 8z"/>
+            </svg>
+          </button>
+          
+          {isLanguageDropdownOpen && (
+            <div className="header__dropdown-menu">
+              {languages.map((lang) => (
+                <button
+                  key={lang.code}
+                  className={`header__dropdown-item ${language === lang.code ? 'header__dropdown-item--active' : ''}`}
+                  onClick={() => handleLanguageSelect(lang.code as "es" | "en" | "pt")}
+                >
+                  <img
+                    src={lang.flag}
+                    alt={lang.name}
+                    className="header__dropdown-item--flag"
+                  />
+                  <span className="header__dropdown-item--text">{lang.name}</span>
+                  {language === lang.code && (
+                    <svg className="header__dropdown-item--check" width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                      <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                    </svg>
+                  )}
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
         <div className="header__buttons">
           <div className="toggle-switch">
             <label htmlFor="switch" className="toggle">

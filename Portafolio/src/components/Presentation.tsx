@@ -57,7 +57,7 @@ export function Presentation({ content }: ComponentProps) {
       </div>
       <figure>
         <img
-          src="/profile.jpg"
+          src="https://res.cloudinary.com/da5vizklk/image/upload/v1759020114/muwkpp9p17fmcqwikext.jpg"
           alt="Imagen de Perfil"
           className="presentation__image"
         />

@@ -1,0 +1,200 @@
+[
+  {
+    "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1759022806/y6xvvxsc6wg3a0wcmqek.png",
+    "images": [
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759022806/y6xvvxsc6wg3a0wcmqek.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759027184/h5oapeqwuwl5k43clcnk.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759027182/dpiqopcw527fiynygj75.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759027181/yfnafxkrifpwt2wfwady.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759027178/ehgbzhsganehfqeojwwg.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759027178/dpfxhfqvefzmoumllbjy.png"
+    ],
+    "nameProject": "Aura Assistant",
+    "icons": [
+      {
+        "src": "react.png",
+        "alt": "React Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "tailwind.png",
+        "alt": "Tailwind Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "python.png",
+        "alt": "Python Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "mcp.png",
+        "alt": "MCP Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "supabase.png",
+        "alt": "Supabase Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "ailogo.png",
+        "alt": "AI Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "docker.png",
+        "alt": "Docker Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "ts.png",
+        "alt": "TypeScript Logo",
+        "className": "projects__icon--img"
+      }
+    ],
+    "description": "Desenvolvi um aplicativo de finanças pessoais para gerenciar melhor nosso orçamento familiar. Inclui análises com IA, orçamentos personalizados e acompanhamento de gastos, com um backend em Python, Supabase como banco de dados e um frontend moderno com React e Tailwind CSS."
+  },
+  {
+    "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1759029692/dtsdsganpugqwozvfs8u.jpg",
+    "images": [
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759029695/wbvswq2rlkez0qmjz0ox.jpg",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759029693/nvz9g98pbpghhtuljq8f.jpg",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759029692/xyiuqbru80afeswnnkq8.jpg",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759029692/dtsdsganpugqwozvfs8u.jpg"
+    ],
+    "nameProject": "Loja Filial",
+    "icons": [
+      {
+        "src": "html.png",
+        "alt": "HTML Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "css.png",
+        "alt": "CSS Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "java.png",
+        "alt": "Java Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "mongo.png",
+        "alt": "MongoDB Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "spring.png",
+        "alt": "Spring Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "angular.png",
+        "alt": "Angular Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "mysql.png",
+        "alt": "mySQL Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "docker.png",
+        "alt": "Docker Logo",
+        "className": "projects__icon--img"
+      }
+    ],
+    "description": "Um sistema de vendas integrado com Angular para o frontend e Java com Spring Boot para o backend, respaldado por bancos de dados relacionais e não relacionais, oferece uma plataforma completa e escalável para gerenciar eficientemente processos de vendas, inventário e análise de dados, com uma interface moderna e funcionalidade robusta.",
+    "github": "https://github.com/JoelS711/backTiendaGenerica",
+    "preview": "https://shop-front-services.onrender.com/home"
+  },
+  {
+    "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1759032420/gwodsqezkz9fbuqpuxxm.png",
+    "images": [
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759032420/gwodsqezkz9fbuqpuxxm.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759032422/slu21mqk7782hc1d3d9f.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759032421/jrtv2rc0btvu9dna3zuh.png"
+    ],
+    "nameProject": "Criptografar e Descriptografar",
+    "icons": [
+      {
+        "src": "html.png",
+        "alt": "HTML Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "css.png",
+        "alt": "CSS Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "js.png",
+        "alt": "JavaScript Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "python.png",
+        "alt": "Python Logo",
+        "className": "projects__icon--img"
+      }
+    ],
+    "description": "Encryptor é uma ferramenta web que permite criptografar e descriptografar palavras inseridas pelo usuário, com uma interface intuitiva.",
+    "github": "https://github.com/JoelS711/AluraChallenge",
+    "preview": "https://joels711.github.io/AluraChallenge/"
+  },
+  {
+    "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1759032781/ntjjmlceimnlamze9qhj.jpg",
+    "images": [
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759032781/ntjjmlceimnlamze9qhj.jpg"
+    ],
+    "nameProject": "Fórmula 1",
+    "icons": [
+      {
+        "src": "html.png",
+        "alt": "HTML Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "css.png",
+        "alt": "CSS Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "js.png",
+        "alt": "JavaScript Logo",
+        "className": "projects__icon--img"
+      }
+    ],
+    "description": "Esta página foi projetada para consumir dados de uma API da Fórmula 1, oferecendo uma experiência dinâmica e atualizada sobre eventos, estatísticas e detalhes relacionados ao emocionante mundo das corridas de carros da Fórmula 1.",
+    "github": "https://github.com/JoelS711/Api-JS/tree/master/F1",
+    "preview": "https://joels711.github.io/Api-JS/F1/index.html"
+  },
+  {
+    "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1759033290/zfymttibpgikdkrttc7v.jpg",
+    "images": [
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759033290/zfymttibpgikdkrttc7v.jpg"
+    ],
+    "nameProject": "Essence Atelier",
+    "icons": [
+      {
+        "src": "html.png",
+        "alt": "HTML Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "css.png",
+        "alt": "CSS Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "js.png",
+        "alt": "JavaScript Logo",
+        "className": "projects__icon--img"
+      }
+    ],
+    "description": "Este site para Essence Atelier apresenta sabonetes e velas artesanais. Utiliza a fonte Poppins e um carrossel de imagens interativo com Swiper.js para exibir produtos. A navegação suave entre seções melhora a experiência do usuário.",
+    "github": "https://github.com/JoelS711/EssenceAtelier",
+    "preview": "https://joels711.github.io/EssenceAtelier/"
+  }
+]

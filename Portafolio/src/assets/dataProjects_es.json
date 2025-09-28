@@ -1,6 +1,67 @@
 [
   {
-    "image": "tienda.jpg",
+    "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1759022806/y6xvvxsc6wg3a0wcmqek.png",
+    "images": [
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759022806/y6xvvxsc6wg3a0wcmqek.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759027184/h5oapeqwuwl5k43clcnk.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759027182/dpiqopcw527fiynygj75.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759027181/yfnafxkrifpwt2wfwady.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759027178/ehgbzhsganehfqeojwwg.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759027178/dpfxhfqvefzmoumllbjy.png"
+    ],
+    "nameProject": "Aura Assistant",
+    "icons": [
+      {
+        "src": "react.png",
+        "alt": "React Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "tailwind.png",
+        "alt": "Tailwind Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "python.png",
+        "alt": "Python Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "mcp.png",
+        "alt": "MCP Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "supabase.png",
+        "alt": "Supabase Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "ailogo.png",
+        "alt": "AI Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "docker.png",
+        "alt": "Docker Logo",
+        "className": "projects__icon--img"
+      },
+      {
+        "src": "ts.png",
+        "alt": "TypeScript Logo",
+        "className": "projects__icon--img"
+      }
+    ],
+    "description": "Desarrollé una app de finanzas personales para gestionar mejor nuestro presupuesto familiar. Incluye análisis con IA, presupuestos personalizados y seguimiento de gastos, con un backend en Python, Supabase como base de datos y un frontend moderno con React y Tailwind CSS."
+  },
+  {
+    "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1759029692/dtsdsganpugqwozvfs8u.jpg",
+    "images": [
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759029695/wbvswq2rlkez0qmjz0ox.jpg",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759029693/nvz9g98pbpghhtuljq8f.jpg",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759029692/xyiuqbru80afeswnnkq8.jpg",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759029692/dtsdsganpugqwozvfs8u.jpg"
+    ],
     "nameProject": "Tienda Sucursal",
     "icons": [
       {
@@ -49,7 +110,12 @@
     "preview": "https://shop-front-services.onrender.com/home"
   },
   {
-    "image": "encripdecrip.jpg",
+    "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1759032420/gwodsqezkz9fbuqpuxxm.png",
+    "images": [
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759032420/gwodsqezkz9fbuqpuxxm.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759032422/slu21mqk7782hc1d3d9f.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759032421/jrtv2rc0btvu9dna3zuh.png"
+    ],
     "nameProject": "Encriptar y Desencriptar",
     "icons": [
       {
@@ -78,7 +144,10 @@
     "preview": "https://joels711.github.io/AluraChallenge/"
   },
   {
-    "image": "f1.jpg",
+    "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1759032781/ntjjmlceimnlamze9qhj.jpg",
+    "images": [
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759032781/ntjjmlceimnlamze9qhj.jpg"
+    ],
     "nameProject": "Formula 1",
     "icons": [
       {
@@ -102,7 +171,10 @@
     "preview": "https://joels711.github.io/Api-JS/F1/index.html"
   },
   {
-    "image": "essenceatelier.jpg",
+    "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1759033290/zfymttibpgikdkrttc7v.jpg",
+    "images": [
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1759033290/zfymttibpgikdkrttc7v.jpg"
+    ],
     "nameProject": "Essence Atelier",
     "icons": [
       {
@@ -124,91 +196,5 @@
     "description": "Esta página web para Essence Atelier presenta jabones y velas artesanales. Utiliza la fuente Poppins y un carrusel de imágenes interactivo con Swiper.js para mostrar productos. La navegación entre secciones es suave, mejorando la experiencia del usuario.",
     "github": "https://github.com/JoelS711/EssenceAtelier",
     "preview": "https://joels711.github.io/EssenceAtelier/"
-  },
-  {
-    "image": "weather.jpg",
-    "nameProject": "Weather",
-    "icons": [
-      {
-        "src": "html.png",
-        "alt": "HTML Logo",
-        "className": "projects__icon--img"
-      },
-      {
-        "src": "css.png",
-        "alt": "CSS Logo",
-        "className": "projects__icon--img"
-      },
-      {
-        "src": "js.png",
-        "alt": "JavaScript Logo",
-        "className": "projects__icon--img"
-      }
-    ],
-    "description": "API del clima proporciona acceso a datos meteorológicos actualizados y pronósticos, permitiendo a los desarrolladores integrar información precisa sobre el clima en sus aplicaciones y sitios web.",
-    "github": "https://github.com/JoelS711/Api-JS/tree/master/Weather",
-    "preview": "https://joels711.github.io/Api-JS/Weather/index.html"
-  },
-  {
-    "image": "cirujano.jpg",
-    "nameProject": "Cirujano Plastico",
-    "icons": [
-      {
-        "src": "html.png",
-        "alt": "HTML Logo",
-        "className": "projects__icon--img"
-      },
-      {
-        "src": "css.png",
-        "alt": "CSS Logo",
-        "className": "projects__icon--img"
-      }
-    ],
-    "description": "Una página web para un cirujano plástico creada con HTML y CSS presenta información clara y detallada sobre los servicios ofrecidos, procedimientos disponibles y testimonios de pacientes, con un diseño elegante y profesional que refleja la experiencia y calidad del cirujano.",
-    "github": "https://github.com/JoelS711/LandingPages/tree/master/CirujanoPlastico",
-    "preview": "https://joels711.github.io/LandingPages/CirujanoPlastico/index.html"
-  },
-  {
-    "image": "abogado.jpg",
-    "nameProject": "Abogado",
-    "icons": [
-      {
-        "src": "html.png",
-        "alt": "HTML Logo",
-        "className": "projects__icon--img"
-      },
-      {
-        "src": "css.png",
-        "alt": "CSS Logo",
-        "className": "projects__icon--img"
-      }
-    ],
-    "description": "El sitio web de un abogado, desarrollado exclusivamente con HTML y CSS, ofrece una presentación clara y profesional de los servicios legales ofrecidos, áreas de especialización y testimonios de clientes, proporcionando una experiencia confiable y transparente para los visitantes en busca de asesoramiento legal.",
-    "github": "https://github.com/JoelS711/LandingPages/tree/master/Abogado",
-    "preview": "https://joels711.github.io/LandingPages/Abogado/index.html"
-  },
-  {
-    "image": "pokemon.jpg",
-    "nameProject": "Pokemon",
-    "icons": [
-      {
-        "src": "html.png",
-        "alt": "HTML Logo",
-        "className": "projects__icon--img"
-      },
-      {
-        "src": "css.png",
-        "alt": "CSS Logo",
-        "className": "projects__icon--img"
-      },
-      {
-        "src": "js.png",
-        "alt": "JavaScript Logo",
-        "className": "projects__icon--img"
-      }
-    ],
-    "description": "Accede a datos esenciales sobre Pokémon, como especies, movimientos y habilidades, a través de la integración de una API especializada, facilitando la creación de aplicaciones enfocadas en el mundo Pokémon.",
-    "github": "https://github.com/JoelS711/Api-JS/tree/master/Pokemon",
-    "preview": "https://joels711.github.io/Api-JS/Pokemon/index.html"
   }
 ]

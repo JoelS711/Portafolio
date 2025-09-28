@@ -29,28 +29,28 @@
       "title": "Work Experience",
       "jobs": [
         {
-          "date": "May 2017 - July 2021",
-          "company": "Acer Latam",
-          "position": "Advisor",
-          "description": "Worked as a Commercial Advisor, providing advice on software and hardware. I achieved increased sales and improved customer satisfaction, developing key commercial and technological skills."
-        },
-        {
           "date": "January 2022 - January 2024",
           "company": "Colombia Movil - TIGO",
           "position": "Advisor",
           "description": "Worked in the Networks and Telecommunications area as a customer service specialist, providing support and making sales. This experience strengthened my communication and problem-solving skills."
         },
         {
-          "date": "February 2023 - July 2024",
+          "date": "February 2023 - September 2024",
           "company": "Freelance",
           "position": "Software Developer",
           "description": "Freelance developer specializing in frontend and backend web solutions, including projects like Essence Atelier, Care&Life, Firseco and a generic store. Used React, JavaScript, Spring Boot, and Python, managing SQL and NoSQL databases."
+        },
+        {
+          "date": "March 2025 - Current",
+          "company": "Ofi Services",
+          "position": "Software Developer",
+          "description": "Currently developing interactive dashboards that integrate artificial intelligence and automated agents, focused on providing attractive and functional interfaces to improve user experience and decision-making."
         }
       ]
     },
     "projects": {
       "title": "Projects",
-      "description": "I have worked on projects using Java, JavaScript, Spring Boot, HTML, CSS, Angular, React, and Python, among others. My focus ranges from web applications to backend development, working with relational and non-relational databases to ensure quality and efficiency in each project."
+      "description": "I have worked on projects using Java, JavaScript, Spring Boot, HTML, CSS, Angular, React, and Python, among other technologies. My focus spans from web application development to backend logic, integrating both relational and non-relational databases to ensure quality and efficiency. Additionally, I have implemented solutions involving artificial intelligence and autonomous agents, applying these technologies to optimize processes, enhance user experience, and add strategic value to projects."
     },
     "skills": {
       "title": "Skills"
@@ -68,6 +68,6 @@
       { "text": "Skills", "link": "#skills" },
       { "text": "Contact", "link": "#contact" }
     ],
-    "copyright": "© 2024 JoelS. Some rights reserved."
+    "copyright": "© 2025 JoelS."
   }
 }

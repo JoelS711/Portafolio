@@ -1,14 +1,24 @@
 /* APP */
 
 .dark-mode {
-  background-color: black;
-  transition: background-color 1s ease;
+  background-color: #000000;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  background-image: repeating-radial-gradient(circle at 0 0,
+      transparent 0,
+      #000000 100px),
+    repeating-linear-gradient(#080808, #080808);
+  transition: all 3s ease-in-out;
+
   p {
     color: white;
   }
+
   span {
     color: white;
   }
+
   h3 {
     color: white;
   }
@@ -19,6 +29,10 @@
 
   .header__menu--link {
     color: white;
+  }
+
+  .header__dropdown-menu {
+    background-color: black;
   }
 
   .header__logo--img {
@@ -38,6 +52,14 @@
     background-color: var(--second-color);
   }
 
+  .carousel-modal {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .carousel-container {
+    border: 2px solid var(--second-color);
+  }
+
   .skills__item {
     border: 2px solid var(--second-color);
   }
@@ -48,5 +70,12 @@
 
   .contact__card {
     background-color: black;
+  }
+
+  .footer {
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(132, 54, 210, 0.3);
   }
 }

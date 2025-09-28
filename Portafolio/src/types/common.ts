@@ -1,4 +1,4 @@
-export type Language = 'es' | 'en';
+export type Language = 'es' | 'en' | 'pt';
 
 export interface ComponentProps {
   content: import('./content').Content;

@@ -1,9 +1,12 @@
 .footer {
-  background-color: #101010;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(79, 79, 79, 0.2);
 }
 
 .footer__icons {
@@ -35,7 +38,7 @@
 
 .footer__menu--link {
   text-decoration: none;
-  color: var(--third-color);
+  color: var(--font-color);
   transition: color 0.2s ease;
 }
 

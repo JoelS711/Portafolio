@@ -1,0 +1,73 @@
+{
+  "header": {
+    "navbar": [
+      { "text": "Sobre mim", "link": "#about" },
+      { "text": "Experiência", "link": "#experience" },
+      { "text": "Projetos", "link": "#projects" },
+      { "text": "Habilidades", "link": "#skills" },
+      { "text": "Contato", "link": "#contact" }
+    ]
+  },
+  "presentation": {
+    "title": "Desenvolvedor de Software",
+    "description": "Projeto e desenvolvo aplicações funcionais e esteticamente agradáveis com paixão e atenção aos detalhes. Focado em proporcionar uma experiência de usuário excepcional e garantir a mais alta qualidade em cada projeto."
+  },
+  "button_cv": {
+    "download_cv": "Baixar CV"
+  },
+  "sections": {
+    "about_me": {
+      "title": "Sobre mim",
+      "description": "Sou um desenvolvedor de software apaixonado com experiência em tecnologias modernas. Adoro trabalhar em projetos desafiadores e colaborar com equipes criativas para entregar soluções inovadoras. Meu foco está em criar experiências digitais impactantes e de alta qualidade que melhorem a vida das pessoas.",
+      "additionalInfo": {
+        "1": "Sou um desenvolvedor com mais de um ano de experiência trabalhando em meus próprios projetos, focado em inovação e resolução criativa de problemas.",
+        "2": "Formado como Tecnólogo em Desenvolvimento de Sistemas pela Universidad ECCI e atualmente estudante de Engenharia de Software.",
+        "3": "Diplomado em desenvolvimento de software pela Universidad del Bosque e MinTic."
+      }
+    },
+    "experience": {
+      "title": "Experiência Profissional",
+      "jobs": [
+        {
+          "date": "Janeiro 2022 - Janeiro 2024",
+          "company": "Colombia Movil - TIGO",
+          "position": "Consultor",
+          "description": "Trabalhei na área de Redes e Telecomunicações como especialista em atendimento ao cliente, fornecendo suporte e realizando vendas. Esta experiência fortaleceu minhas habilidades de comunicação e resolução de problemas."
+        },
+        {
+          "date": "Fevereiro 2023 - Setembro 2024",
+          "company": "Freelance",
+          "position": "Desenvolvedor de Software",
+          "description": "Desenvolvedor freelancer especializado em soluções web frontend e backend, incluindo projetos como Essence Atelier, Care&Life, Firseco e uma loja genérica. Utilizei React, JavaScript, Spring Boot e Python, gerenciando bancos de dados SQL e NoSQL."
+        },
+        {
+          "date": "Março 2025 - Atual",
+          "company": "Ofi Services",
+          "position": "Desenvolvedor de Software",
+          "description": "Atualmente desenvolvo dashboards interativos que integram inteligência artificial e agentes automatizados, focados em oferecer interfaces visuais atraentes e funcionais para melhorar a experiência do usuário e a tomada de decisões."
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projetos",
+      "description": "Trabalhei em projetos utilizando Java, JavaScript, Spring Boot, HTML, CSS, Angular, React e Python, entre outras tecnologias. Meu foco abrange desde o desenvolvimento de aplicações web até a lógica backend, integrando bancos de dados relacionais e não relacionais para garantir qualidade e eficiência. Além disso, implementei soluções envolvendo inteligência artificial e agentes autônomos, aplicando essas tecnologias para otimizar processos, melhorar a experiência do usuário e agregar valor estratégico aos projetos."
+    },
+    "skills": {
+      "title": "Habilidades"
+    },
+    "contact": {
+      "title": "Contato",
+      "description": "Estou disponível para considerar qualquer oportunidade profissional ou proposta de colaboração que possa surgir. Se você tem alguma ideia que gostaria de discutir ou compartilhar, não hesite em entrar em contato comigo. Ficarei feliz em responder prontamente e explorar como podemos colaborar juntos."
+    }
+  },
+  "footer": {
+    "navbar": [
+      { "text": "Sobre mim", "link": "#about" },
+      { "text": "Experiência", "link": "#experience" },
+      { "text": "Projetos", "link": "#projects" },
+      { "text": "Habilidades", "link": "#skills" },
+      { "text": "Contato", "link": "#contact" }
+    ],
+    "copyright": "© 2025 JoelS."
+  }
+}

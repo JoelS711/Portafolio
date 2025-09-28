@@ -52,9 +52,7 @@
         "className": "projects__icon--img"
       }
     ],
-    "description": "I built a personal finance app to manage our household budget more efficiently. It includes AI-powered insights, custom budgeting, and transaction tracking, using a Python multi-agent backend, Supabase for data storage, and a modern frontend with React and Tailwind CSS.",
-    "github": "https://github.com/JoelS711/backTiendaGenerica",
-    "preview": "https://shop-front-services.onrender.com/home"
+    "description": "Desenvolvi um aplicativo de finanças pessoais para gerenciar melhor nosso orçamento familiar. Inclui análises com IA, orçamentos personalizados e acompanhamento de gastos, com um backend em Python, Supabase como banco de dados e um frontend moderno com React e Tailwind CSS."
   },
   {
     "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1759029692/dtsdsganpugqwozvfs8u.jpg",
@@ -64,7 +62,7 @@
       "https://res.cloudinary.com/da5vizklk/image/upload/v1759029692/xyiuqbru80afeswnnkq8.jpg",
       "https://res.cloudinary.com/da5vizklk/image/upload/v1759029692/dtsdsganpugqwozvfs8u.jpg"
     ],
-    "nameProject": "Branch Store",
+    "nameProject": "Loja Filial",
     "icons": [
       {
         "src": "html.png",
@@ -107,7 +105,7 @@
         "className": "projects__icon--img"
       }
     ],
-    "description": "A sales system integrated with Angular for the frontend and Java with Spring Boot for the backend, supported by relational and non-relational databases, offering a comprehensive and scalable platform to efficiently manage sales processes, inventory, and data analysis, with a modern interface and robust functionality.",
+    "description": "Um sistema de vendas integrado com Angular para o frontend e Java com Spring Boot para o backend, respaldado por bancos de dados relacionais e não relacionais, oferece uma plataforma completa e escalável para gerenciar eficientemente processos de vendas, inventário e análise de dados, com uma interface moderna e funcionalidade robusta.",
     "github": "https://github.com/JoelS711/backTiendaGenerica",
     "preview": "https://shop-front-services.onrender.com/home"
   },
@@ -118,7 +116,7 @@
       "https://res.cloudinary.com/da5vizklk/image/upload/v1759032422/slu21mqk7782hc1d3d9f.png",
       "https://res.cloudinary.com/da5vizklk/image/upload/v1759032421/jrtv2rc0btvu9dna3zuh.png"
     ],
-    "nameProject": "Encrypt and Decrypt",
+    "nameProject": "Criptografar e Descriptografar",
     "icons": [
       {
         "src": "html.png",
@@ -141,7 +139,7 @@
         "className": "projects__icon--img"
       }
     ],
-    "description": "Encryptor is a web tool that allows users to encrypt and decrypt inputted words, with an intuitive interface.",
+    "description": "Encryptor é uma ferramenta web que permite criptografar e descriptografar palavras inseridas pelo usuário, com uma interface intuitiva.",
     "github": "https://github.com/JoelS711/AluraChallenge",
     "preview": "https://joels711.github.io/AluraChallenge/"
   },
@@ -150,7 +148,7 @@
     "images": [
       "https://res.cloudinary.com/da5vizklk/image/upload/v1759032781/ntjjmlceimnlamze9qhj.jpg"
     ],
-    "nameProject": "Formula 1",
+    "nameProject": "Fórmula 1",
     "icons": [
       {
         "src": "html.png",
@@ -168,7 +166,7 @@
         "className": "projects__icon--img"
       }
     ],
-    "description": "This page is designed to consume data from a Formula 1 API, offering a dynamic and updated experience on events, statistics, and details related to the thrilling world of Formula 1 racing.",
+    "description": "Esta página foi projetada para consumir dados de uma API da Fórmula 1, oferecendo uma experiência dinâmica e atualizada sobre eventos, estatísticas e detalhes relacionados ao emocionante mundo das corridas de carros da Fórmula 1.",
     "github": "https://github.com/JoelS711/Api-JS/tree/master/F1",
     "preview": "https://joels711.github.io/Api-JS/F1/index.html"
   },
@@ -195,7 +193,7 @@
         "className": "projects__icon--img"
       }
     ],
-    "description": "This website for Essence Atelier showcases artisanal soaps and candles. It uses the Poppins font and an interactive image carousel with Swiper.js to display products. The smooth navigation between sections enhances the user experience.",
+    "description": "Este site para Essence Atelier apresenta sabonetes e velas artesanais. Utiliza a fonte Poppins e um carrossel de imagens interativo com Swiper.js para exibir produtos. A navegação suave entre seções melhora a experiência do usuário.",
     "github": "https://github.com/JoelS711/EssenceAtelier",
     "preview": "https://joels711.github.io/EssenceAtelier/"
   }

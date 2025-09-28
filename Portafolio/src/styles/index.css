@@ -25,7 +25,6 @@ body {
       transparent 0,
       #Ffffff 100px),
     repeating-linear-gradient(#FAFAF9, #FAFAF9);
-  transition: all 3s ease-in-out;
 }
 
 h2 {

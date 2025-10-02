@@ -39,7 +39,7 @@ html {
 }
 
 .header__menu-item {
-  transition: 0.4s ease;
+  transition: 0.2s ease;
 }
 
 .header__menu-item:hover {
@@ -57,11 +57,11 @@ html {
 }
 
 .header__logo {
-  transition: 0.4s ease;
+  transition: 0.2s ease;
 }
 
 .header__logo:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
 .header__logo--img {
@@ -81,7 +81,7 @@ html {
 }
 
 .header__button:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
 .header__button--icon {
@@ -160,10 +160,6 @@ html {
   transition: all 0.3s ease;
 }
 
-.header__button:hover {
-  background-color: var(--hover-color);
-}
-
 .header__button--text {
   font-size: 0.9rem;
   font-weight: 500;
@@ -221,7 +217,7 @@ html {
 }
 
 .header__dropdown-item:hover {
-  background-color: var(--hover-color);
+  background-color: color-mix(in srgb, var(--second-color) 50%, white);
 }
 
 .header__dropdown-item--active {

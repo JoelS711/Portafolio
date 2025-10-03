@@ -78,4 +78,10 @@
     -webkit-backdrop-filter: blur(10px);
     border-top: 1px solid rgba(132, 54, 210, 0.3);
   }
+
+  .presentation__name {
+    background: url(/backname.gif) 0 0 / cover no-repeat;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }

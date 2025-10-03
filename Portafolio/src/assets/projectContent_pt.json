@@ -28,11 +28,12 @@
     "experience": {
       "title": "Experiência Profissional",
       "jobs": [
+        
         {
-          "date": "Janeiro 2022 - Janeiro 2024",
-          "company": "Colombia Movil - TIGO",
-          "position": "Consultor",
-          "description": "Trabalhei na área de Redes e Telecomunicações como especialista em atendimento ao cliente, fornecendo suporte e realizando vendas. Esta experiência fortaleceu minhas habilidades de comunicação e resolução de problemas."
+          "date": "Março 2025 - Atual",
+          "company": "Ofi Services",
+          "position": "Desenvolvedor de Software",
+          "description": "Atualmente desenvolvo dashboards interativos que integram inteligência artificial e agentes automatizados, focados em oferecer interfaces visuais atraentes e funcionais para melhorar a experiência do usuário e a tomada de decisões."
         },
         {
           "date": "Fevereiro 2023 - Setembro 2024",
@@ -41,10 +42,10 @@
           "description": "Desenvolvedor freelancer especializado em soluções web frontend e backend, incluindo projetos como Essence Atelier, Care&Life, Firseco e uma loja genérica. Utilizei React, JavaScript, Spring Boot e Python, gerenciando bancos de dados SQL e NoSQL."
         },
         {
-          "date": "Março 2025 - Atual",
-          "company": "Ofi Services",
-          "position": "Desenvolvedor de Software",
-          "description": "Atualmente desenvolvo dashboards interativos que integram inteligência artificial e agentes automatizados, focados em oferecer interfaces visuais atraentes e funcionais para melhorar a experiência do usuário e a tomada de decisões."
+          "date": "Janeiro 2022 - Janeiro 2024",
+          "company": "Colombia Movil - TIGO",
+          "position": "Consultor",
+          "description": "Trabalhei na área de Redes e Telecomunicações como especialista em atendimento ao cliente, fornecendo suporte e realizando vendas. Esta experiência fortaleceu minhas habilidades de comunicação e resolução de problemas."
         }
       ]
     },

@@ -73,7 +73,7 @@
 
 .projects__figure--clickable {
   cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
 }
 
 .projects__figure--clickable:hover {
@@ -81,6 +81,7 @@
   box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.7);
   -webkit-box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.7);
+  filter: brightness(0.6);
 }
 
 .projects__icon {

@@ -29,10 +29,10 @@
       "title": "Experiencia Laboral",
       "jobs": [
         {
-          "date": "Enero 2022 - Enero 2024",
-          "company": "Colombia Movil - TIGO",
-          "position": "Asesor",
-          "description": "Trabajé en el área de Redes y Telecomunicaciones como especialista en atención al cliente, brindando soporte y realizando ventas. Esta experiencia fortaleció mis habilidades en comunicación y resolución de problemas."
+          "date": "Marzo 2025 - Actual",
+          "company": "Ofi Services",
+          "position": "Desarrollador de Software",
+          "description": "Actualmente desarrollo dashboards interactivos que integran inteligencia artificial y agentes automatizados, enfocados en ofrecer interfaces visuales atractivas y funcionales para mejorar la experiencia del usuario y la toma de decisiones."
         },
         {
           "date": "Feb 2023 - Septiembre 2024",
@@ -40,12 +40,11 @@
           "position": "Desarrollador de Software",
           "description": "Especializado en soluciones web frontend y backend, incluyendo proyectos como la página de Essence Atelier, Care&Life, Firseco y una tienda genérica. Usé React, JavaScript, Spring Boot, y Python, gestionando bases de datos SQL y NoSQL."
         },
-        
         {
-          "date": "Marzo 2025 - Actual",
-          "company": "Ofi Services",
-          "position": "Desarrollador de Software",
-          "description": "Actualmente desarrollo dashboards interactivos que integran inteligencia artificial y agentes automatizados, enfocados en ofrecer interfaces visuales atractivas y funcionales para mejorar la experiencia del usuario y la toma de decisiones."
+          "date": "Enero 2022 - Enero 2024",
+          "company": "Colombia Movil - TIGO",
+          "position": "Asesor",
+          "description": "Trabajé en el área de Redes y Telecomunicaciones como especialista en atención al cliente, brindando soporte y realizando ventas. Esta experiencia fortaleció mis habilidades en comunicación y resolución de problemas."
         }
       ]
     },

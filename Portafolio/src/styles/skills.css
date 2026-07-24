@@ -1,48 +1,81 @@
 @import url('./index.css');
 
-/* Skills */
-
-.skills{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
+/* ============================================
+   Skills — chips con entrada en cascada
+   ============================================ */
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: clamp(3rem, 8vw, 5.5rem) clamp(1rem, 5vw, 3rem);
+  max-width: 80rem;
+  margin: 0 auto;
 }
 
-.skills__title{
-    color: var(--second-color);
+.skills__title {
+  color: var(--accent);
 }
 
-.skills__figure{
-    padding: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
+.skills__figure {
+  padding: 2rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.9rem;
+  max-width: 56rem;
 }
 
-.skills__item{
-    display: flex;
-    flex-direction: column;
-    border-radius: 1rem;
-    border: 2px solid var(--second-color);
-    transition: transform 0.4s ease;
-    align-items: center;
-    color: var(--second-color);
-    padding: .4rem;
+.skills__item {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.6rem 1.1rem;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  color: var(--accent);
+  transition:
+    transform 0.3s var(--ease-out),
+    box-shadow 0.3s ease,
+    border-color 0.3s ease,
+    background-color 0.4s ease;
 }
 
-.skills__item:hover{
-    transform: scale(1.04);
+.skills__item:hover {
+  transform: translateY(-4px) scale(1.04);
+  border-color: var(--accent);
+  box-shadow: var(--shadow-glow);
 }
 
-.skills__img{
-    width: 8rem;
+.skills__img {
+  height: 1.9rem;
+  width: auto;
+  max-width: 3.2rem;
+  object-fit: contain;
+  transition: transform 0.3s var(--ease-out);
 }
 
+.skills__item:hover .skills__img {
+  transform: scale(1.15) rotate(-3deg);
+}
+
+.skills__name {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text);
+}
 
 @media screen and (max-width: 768px) {
-    .skills__img{
-        width: 6rem;
-    }
+  .skills__figure {
+    gap: 0.7rem;
+  }
+
+  .skills__item {
+    padding: 0.5rem 0.9rem;
+  }
+
+  .skills__img {
+    height: 1.6rem;
+  }
 }

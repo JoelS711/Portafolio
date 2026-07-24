@@ -1,6 +1,8 @@
 @import url("./index.css");
 
-/* Image Carousel Modal */
+/* ============================================
+   Image Carousel Modal
+   ============================================ */
 .carousel-modal {
   position: fixed;
   top: 0;
@@ -11,7 +13,9 @@
   justify-content: center;
   align-items: center;
   z-index: 1000;
-  backdrop-filter: blur(5px);
+  background-color: var(--overlay-bg);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   animation: fadeIn 0.3s ease-out;
 }
 
@@ -29,20 +33,23 @@
   max-width: 1200px;
   height: 90%;
   max-height: 800px;
-  border-radius: 1rem;
+  border-radius: var(--radius-md);
   display: flex;
   flex-direction: column;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
-  animation: slideIn 0.3s ease-out;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+  animation: slideIn 0.35s var(--ease-out);
 }
 
 @keyframes slideIn {
   from {
-    transform: scale(0.8);
+    transform: scale(0.85) translateY(20px);
     opacity: 0;
   }
   to {
-    transform: scale(1);
+    transform: scale(1) translateY(0);
     opacity: 1;
   }
 }
@@ -53,26 +60,28 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border);
 }
 
 .carousel-title {
-  color: var(--second-color);
-  font-size: 1.5rem;
-  font-weight: bold;
+  color: var(--accent);
+  font-size: 1.4rem;
+  font-weight: 600;
   margin: 0;
 }
 
 .carousel-close {
   background: none;
   border: none;
-  color: var(--second-color);
+  color: var(--accent);
   font-size: 2rem;
   cursor: pointer;
-  padding: 0.5rem;
   border-radius: 50%;
-  transition: all 0.3s ease;
-  width: 3rem;
-  height: 3rem;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s var(--ease-out);
+  width: 2.8rem;
+  height: 2.8rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,7 +89,7 @@
 
 .carousel-close:hover {
   background-color: var(--hover-color);
-  transform: scale(1.1);
+  transform: scale(1.1) rotate(90deg);
 }
 
 /* Main carousel */
@@ -91,29 +100,38 @@
   justify-content: center;
   position: relative;
   padding: 2rem;
+  min-height: 0;
 }
 
 .carousel-image-container {
-  height: 30rem;
+  height: 100%;
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   max-height: 100%;
-
+  overflow: hidden;
 }
 
 .carousel-image {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-  border-radius: 0.5rem;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease;
+  border-radius: 0.6rem;
+  box-shadow: var(--shadow-md);
+  animation: imageEnter 0.4s var(--ease-out);
 }
 
-.carousel-image:hover {
-  transform: scale(1.02);
+/* Transición entre imágenes */
+@keyframes imageEnter {
+  from {
+    opacity: 0;
+    transform: translateX(24px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 /* Navigation buttons */
@@ -121,24 +139,29 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.7);
+  background: var(--accent-grad);
   color: white;
   border: none;
-  font-size: 2rem;
-  width: 3rem;
-  height: 3rem;
+  font-size: 1.8rem;
+  width: 2.9rem;
+  height: 2.9rem;
   border-radius: 50%;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s ease;
+  box-shadow: 0 6px 18px rgba(132, 54, 210, 0.4);
+  transition:
+    transform 0.3s var(--ease-out),
+    box-shadow 0.3s ease;
   z-index: 10;
 }
 
 .carousel-nav:hover {
-  background-color: rgba(0, 0, 0, 0.9);
-  transform: translateY(-50%) scale(1.1);
+  transform: translateY(-50%) scale(1.12);
+  box-shadow:
+    0 0 10px var(--accent),
+    0 8px 26px rgba(132, 54, 210, 0.55);
 }
 
 .carousel-nav--prev {
@@ -158,14 +181,18 @@
 }
 
 .carousel-indicator {
-  width: 0.75rem;
-  height: 0.75rem;
-  border-radius: 50%;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 999px;
   border: none;
-  background-color: var(--font-color);
+  background-color: var(--text-muted);
   cursor: pointer;
-  transition: all 0.3s ease;
-  opacity: 0.5;
+  transition:
+    transform 0.3s var(--ease-out),
+    background-color 0.3s ease,
+    width 0.3s var(--ease-out),
+    opacity 0.3s ease;
+  opacity: 0.4;
 }
 
 .carousel-indicator:hover {
@@ -174,18 +201,18 @@
 }
 
 .carousel-indicator--active {
-  background-color: var(--second-color);
+  background-color: var(--accent);
   opacity: 1;
-  transform: scale(1.3);
+  width: 1.6rem;
 }
 
 /* Counter */
 .carousel-counter {
   text-align: center;
-  color: var(--text-color);
-  font-size: 0.9rem;
-  padding: 0.5rem;
-  border-top: 1px solid var(--border-color);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  padding: 0.6rem;
+  border-top: 1px solid var(--border);
 }
 
 /* Responsive Design */
@@ -200,7 +227,7 @@
   }
 
   .carousel-title {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
   }
 
   .carousel-main {
@@ -208,9 +235,9 @@
   }
 
   .carousel-nav {
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 1.5rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    font-size: 1.4rem;
   }
 
   .carousel-nav--prev {
@@ -229,6 +256,10 @@
   .carousel-indicator {
     width: 0.6rem;
     height: 0.6rem;
+  }
+
+  .carousel-indicator--active {
+    width: 1.3rem;
   }
 }
 
@@ -269,11 +300,10 @@
 /* Touch gestures support */
 @media (hover: none) and (pointer: coarse) {
   .carousel-nav {
-    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.85;
   }
-  
+
   .carousel-nav:hover {
-    background-color: rgba(0, 0, 0, 0.5);
     transform: translateY(-50%);
   }
 }

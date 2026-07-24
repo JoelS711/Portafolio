@@ -1,88 +1,158 @@
 @import url('./index.css');
 
-/* Contact */
-
-.contact{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    padding: 2rem;
+/* ============================================
+   Contact
+   ============================================ */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.4rem;
+  padding: clamp(3rem, 8vw, 5.5rem) clamp(1rem, 5vw, 3rem);
+  max-width: 80rem;
+  margin: 0 auto;
 }
 
-.contact__description{
-    width: 80%;
-    text-align: center;
+.contact__title {
+  color: var(--accent);
 }
 
-.contact__card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: var(--third-color);
-    width: 24rem;
-    border-radius: 1rem;
-    padding: 1rem;
-    gap: 1rem;
+.contact__description {
+  max-width: 52rem;
+  text-align: center;
+  color: var(--text-muted);
+  font-weight: 300;
 }
 
-.contact__mail{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--second-color);
-    border-radius: 2rem;
-    padding: 1rem;
-    width: 100%;
-    transition: transform 0.4s ease;
+/* Tarjeta con borde de gradiente */
+.contact__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min(26rem, 100%);
+  border-radius: var(--radius-md);
+  padding: 1.6rem 1.4rem;
+  gap: 1.2rem;
+  border: 1.5px solid transparent;
+  background:
+    linear-gradient(var(--surface), var(--surface)) padding-box,
+    var(--accent-grad) border-box;
+  box-shadow: var(--shadow-sm);
+  transition:
+    transform 0.35s var(--ease-out),
+    box-shadow 0.35s ease;
 }
 
-.contact__mail:hover{
-    transform: scale(1.05);
+.contact__card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-glow);
 }
 
-.contact__mail--link{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
+/* CTA principal de correo */
+.contact__mail {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-radius: var(--radius-sm);
+  padding: 1.2rem 1rem;
+  background: var(--accent-grad);
+  box-shadow: 0 8px 24px rgba(132, 54, 210, 0.35);
+  transition:
+    transform 0.35s var(--ease-out),
+    box-shadow 0.35s ease;
 }
 
-.contact__mail--img{
-    width: 3rem;
+.contact__mail::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -80%;
+  width: 45%;
+  height: 100%;
+  background: linear-gradient(
+    100deg,
+    transparent,
+    rgba(255, 255, 255, 0.35),
+    transparent
+  );
+  transform: skewX(-20deg);
+  transition: left 0.6s var(--ease-out);
 }
 
-.contact__mail--mail{
-    color: #fff;
-    font-size: 1.2rem;
+.contact__mail:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow:
+    0 0 14px var(--accent),
+    0 14px 40px rgba(132, 54, 210, 0.45);
 }
 
-.contact__media{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+.contact__mail:hover::after {
+  left: 130%;
 }
 
-.contact__media--figure{
-    transition: transform 0.4s ease;
+.contact__mail--link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
 }
 
-.contact__media--figure:hover{
-    transform: scale(1.1);
+.contact__mail--img {
+  width: 2.8rem;
+  transition: transform 0.3s var(--ease-out);
 }
 
-.contact__media--img{
-    width: 3rem;
+.contact__mail:hover .contact__mail--img {
+  transform: scale(1.1) rotate(-4deg);
 }
 
+.contact__mail--mail {
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
 
+/* Redes sociales */
+.contact__media {
+  display: flex;
+  justify-content: center;
+  gap: 0.9rem;
+}
 
+.contact__media--figure {
+  display: grid;
+  place-items: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  transition:
+    transform 0.3s var(--ease-out),
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.contact__media--figure:hover {
+  transform: translateY(-5px) scale(1.08);
+  border-color: var(--accent);
+  box-shadow: var(--shadow-glow);
+}
+
+.contact__media--img {
+  width: 1.9rem;
+}
 
 @media screen and (max-width: 768px) {
-    .contact__description{
-        width: 100%;
-    }
-    .contact__card{
-        width: 100%;
-    }
+  .contact__description {
+    width: 100%;
+  }
+
+  .contact__card {
+    width: 100%;
+  }
 }

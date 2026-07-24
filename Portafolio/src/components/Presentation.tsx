@@ -55,7 +55,7 @@ export function Presentation({ content }: ComponentProps) {
           </a>
         </figure>
       </div>
-      <figure>
+      <figure className="presentation__image-wrapper">
         <img
           src="https://res.cloudinary.com/da5vizklk/image/upload/v1759020114/muwkpp9p17fmcqwikext.jpg"
           alt="Imagen de Perfil"

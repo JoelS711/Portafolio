@@ -110,91 +110,61 @@
     "preview": "https://shop-front-services.onrender.com/home"
   },
   {
-    "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1759032420/gwodsqezkz9fbuqpuxxm.png",
+    "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1784923770/lxgkuudhjqmmdqvswpis.png",
     "images": [
-      "https://res.cloudinary.com/da5vizklk/image/upload/v1759032420/gwodsqezkz9fbuqpuxxm.png",
-      "https://res.cloudinary.com/da5vizklk/image/upload/v1759032422/slu21mqk7782hc1d3d9f.png",
-      "https://res.cloudinary.com/da5vizklk/image/upload/v1759032421/jrtv2rc0btvu9dna3zuh.png"
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1784923770/cnjtyy3ufwuhpvexvguu.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1784923770/ilhetziw1cfqgrpogfca.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1784923770/lxgkuudhjqmmdqvswpis.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1784923770/sqlignpff6e8sz92ussh.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1784923770/yxrjteqpsyve0wflwcee.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1784923770/i0mms7f0pzl3bupfmmev.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1784923771/tnypjc4shrsjwjm2e6ff.png"
     ],
-    "nameProject": "Criptografar e Descriptografar",
+    "nameProject": "Infinity Access",
     "icons": [
       {
-        "src": "html.png",
-        "alt": "HTML Logo",
+        "src": "react.png",
+        "alt": "React Logo",
         "className": "projects__icon--img"
       },
       {
-        "src": "css.png",
-        "alt": "CSS Logo",
-        "className": "projects__icon--img"
-      },
-      {
-        "src": "js.png",
-        "alt": "JavaScript Logo",
+        "src": "tailwind.png",
+        "alt": "Tailwind Logo",
         "className": "projects__icon--img"
       },
       {
         "src": "python.png",
         "alt": "Python Logo",
         "className": "projects__icon--img"
-      }
-    ],
-    "description": "Encryptor é uma ferramenta web que permite criptografar e descriptografar palavras inseridas pelo usuário, com uma interface intuitiva.",
-    "github": "https://github.com/JoelS711/AluraChallenge",
-    "preview": "https://joels711.github.io/AluraChallenge/"
-  },
-  {
-    "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1759032781/ntjjmlceimnlamze9qhj.jpg",
-    "images": [
-      "https://res.cloudinary.com/da5vizklk/image/upload/v1759032781/ntjjmlceimnlamze9qhj.jpg"
-    ],
-    "nameProject": "Fórmula 1",
-    "icons": [
+      },
       {
-        "src": "html.png",
-        "alt": "HTML Logo",
+        "src": "mcp.png",
+        "alt": "MCP Logo",
         "className": "projects__icon--img"
       },
       {
-        "src": "css.png",
-        "alt": "CSS Logo",
+        "src": "supabase.png",
+        "alt": "Supabase Logo",
         "className": "projects__icon--img"
       },
       {
-        "src": "js.png",
-        "alt": "JavaScript Logo",
-        "className": "projects__icon--img"
-      }
-    ],
-    "description": "Esta página foi projetada para consumir dados de uma API da Fórmula 1, oferecendo uma experiência dinâmica e atualizada sobre eventos, estatísticas e detalhes relacionados ao emocionante mundo das corridas de carros da Fórmula 1.",
-    "github": "https://github.com/JoelS711/Api-JS/tree/master/F1",
-    "preview": "https://joels711.github.io/Api-JS/F1/index.html"
-  },
-  {
-    "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1759033290/zfymttibpgikdkrttc7v.jpg",
-    "images": [
-      "https://res.cloudinary.com/da5vizklk/image/upload/v1759033290/zfymttibpgikdkrttc7v.jpg"
-    ],
-    "nameProject": "Essence Atelier",
-    "icons": [
-      {
-        "src": "html.png",
-        "alt": "HTML Logo",
+        "src": "ailogo.png",
+        "alt": "AI Logo",
         "className": "projects__icon--img"
       },
       {
-        "src": "css.png",
-        "alt": "CSS Logo",
+        "src": "docker.png",
+        "alt": "Docker Logo",
         "className": "projects__icon--img"
       },
       {
-        "src": "js.png",
-        "alt": "JavaScript Logo",
+        "src": "ts.png",
+        "alt": "TypeScript Logo",
         "className": "projects__icon--img"
       }
     ],
-    "description": "Este site para Essence Atelier apresenta sabonetes e velas artesanais. Utiliza a fonte Poppins e um carrossel de imagens interativo com Swiper.js para exibir produtos. A navegação suave entre seções melhora a experiência do usuário.",
-    "github": "https://github.com/JoelS711/EssenceAtelier",
-    "preview": "https://joels711.github.io/EssenceAtelier/"
+    "description": "InfinityAccess é um Sistema de Controle de Acesso Físico (PACS) empresarial com arquitetura orientada a eventos. Seu backend (FastAPI, RabbitMQ) integra um avançado motor de permissões (PBAC) e comunicação bidirecional que abstrai e integra múltiplas marcas de hardware biométrico de borda. O frontend (React, Tailwind, Zustand) oferece um painel de controle interativo para gerenciar reservas, auditorias e monitoramento de incidentes de segurança mediante WebSockets. Em conjunto, é uma solução robusta e escalável projetada para a sincronização em tempo real entre a nuvem e dispositivos físicos.",
+    "github": "https://github.com/JoelS711/backTiendaGenerica",
+    "preview": "https://shop-front-services.onrender.com/home"
   }
 ]

@@ -10,7 +10,7 @@
   },
   "presentation": {
     "title": "Desarrollador de Software",
-    "description": "Diseño y desarrollo aplicaciones funcionales y estéticas con pasión y atención al detalle. Enfocado en brindar una experiencia de usuario excepcional y garantizar la más alta calidad en cada proyecto."
+    "description": "Transformo ideas en productos digitales atractivos y altamente funcionales. Cuido cada detalle del desarrollo, desde la arquitectura hasta la interfaz final, para ofrecer experiencias de usuario excepcionales que destaquen por su innovación y calidad técnica."
   },
   "button_cv": {
     "download_cv": "Descargar CV"
@@ -18,11 +18,11 @@
   "sections": {
     "about_me": {
       "title": "Acerca de mí",
-      "description": "Soy un apasionado desarrollador de software con experiencia en tecnologías modernas. Me encanta trabajar en proyectos desafiantes y colaborar con equipos creativos para ofrecer soluciones innovadoras. Mi enfoque se centra en crear experiencias digitales impactantes y de alta calidad que mejoren la vida de las personas.",
+      "description": "Soy un desarrollador de software versátil, apasionado por transformar desafíos complejos en soluciones tecnológicas de alto impacto. Me especializo en unir el desarrollo Full-Stack con arquitecturas Cloud e Inteligencia Artificial para crear productos digitales escalables. Mi enfoque es aportar valor real a través de la innovación, código limpio y una rápida adaptación a cualquier tecnología.",
       "additionalInfo": {
-        "1": "Soy un desarrollador con más de un año de experiencia en mis propios proyectos, enfocado en la innovación y la resolución creativa de problemas.",
-        "2": "Egresado como tecnólogo en sistemas de la Universidad ECCI y actualmente estudiante de Ingeniería de Software.",
-        "3": "Diplomado en desarrollo de software en la Universidad del Bosque y MinTic."
+        "1": "Desarrollador de software versátil con experiencia profesional construyendo aplicaciones Full-Stack, infraestructuras Cloud e integrando soluciones de Inteligencia Artificial.",
+        "2": "Me destaco por mi capacidad de adaptación técnica y resolución creativa de problemas, enfocándome siempre en la innovación y en aportar valor real al negocio.",
+        "3": "Egresado como Tecnólogo en Sistemas (Universidad ECCI), Diplomado en Desarrollo de Software (Universidad del Bosque/MinTic) y actualmente estudiante de Ingeniería de Software."
       }
     },
     "experience": {
@@ -30,9 +30,9 @@
       "jobs": [
         {
           "date": "Marzo 2025 - Actual",
-          "company": "Ofi Services",
+          "company": "Ofi x Artefact",
           "position": "Desarrollador de Software",
-          "description": "Actualmente desarrollo dashboards interactivos que integran inteligencia artificial y agentes automatizados, enfocados en ofrecer interfaces visuales atractivas y funcionales para mejorar la experiencia del usuario y la toma de decisiones."
+          "description": "Desarrollo soluciones tecnológicas transversales para resolver los desafíos críticos de la compañía. Mi trabajo abarca desde la creación de aplicaciones web/móviles hasta el diseño de infraestructuras en AWS, destacando la implementación de Inteligencia Artificial y la automatización de procesos corporativos."
         },
         {
           "date": "Feb 2023 - Septiembre 2024",

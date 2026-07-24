@@ -10,7 +10,7 @@
   },
   "presentation": {
     "title": "Software Developer",
-    "description": "I design and develop functional and aesthetically pleasing applications with passion and attention to detail. Focused on providing an exceptional user experience and ensuring the highest quality in every project."
+    "description": "I turn ideas into attractive, highly functional digital products. I care about every detail of development, from architecture to the final interface, to deliver exceptional user experiences that stand out for their innovation and technical quality."
   },
   "button_cv": {
     "download_cv": "Download CV"
@@ -18,28 +18,27 @@
   "sections": {
     "about_me": {
       "title": "About Me",
-      "description": "I am a passionate software developer with experience in modern technologies. I love working on challenging projects and collaborating with creative teams to deliver innovative solutions. My focus is on creating impactful, high-quality digital experiences that improve people's lives.",
+      "description": "I am a versatile software developer, passionate about turning complex challenges into high-impact technology solutions. I specialize in combining Full-Stack development with Cloud architectures and Artificial Intelligence to create scalable digital products. My focus is on delivering real value through innovation, clean code, and rapid adaptation to any technology.",
       "additionalInfo": {
-        "1": "I am a developer with over a year of experience working on my own projects, focused on innovation and creative problem-solving.",
-        "2": "Graduated as a Computer Development Technologist from Universidad ECCI and currently a student of Software Engineering.",
-        "3": "Diploma in software development from Universidad del Bosque and MinTic."
+        "1": "Versatile software developer with professional experience building Full-Stack applications, Cloud infrastructures, and integrating Artificial Intelligence solutions.",
+        "2": "I stand out for my technical adaptability and creative problem-solving, always focusing on innovation and delivering real business value.",
+        "3": "Graduated as a Systems Technologist (Universidad ECCI), Diploma in Software Development (Universidad del Bosque/MinTic), and currently a Software Engineering student."
       }
     },
     "experience": {
       "title": "Work Experience",
       "jobs": [
-        
         {
-          "date": "March 2025 - Current",
-          "company": "Ofi Services",
+          "date": "March 2025 - Present",
+          "company": "Ofi x Artefact",
           "position": "Software Developer",
-          "description": "Currently developing interactive dashboards that integrate artificial intelligence and automated agents, focused on providing attractive and functional interfaces to improve user experience and decision-making."
+          "description": "I develop cross-cutting technology solutions to address the company's critical challenges. My work ranges from building web/mobile applications to designing AWS infrastructures, with a focus on Artificial Intelligence implementation and corporate process automation."
         },
         {
-          "date": "February 2023 - September 2024",
+          "date": "Feb 2023 - September 2024",
           "company": "Freelance",
           "position": "Software Developer",
-          "description": "Freelance developer specializing in frontend and backend web solutions, including projects like Essence Atelier, Care&Life, Firseco and a generic store. Used React, JavaScript, Spring Boot, and Python, managing SQL and NoSQL databases."
+          "description": "Specialized in frontend and backend web solutions, including projects like Essence Atelier, Care&Life, Firseco, and a generic store. Used React, JavaScript, Spring Boot, and Python, managing SQL and NoSQL databases."
         },
         {
           "date": "January 2022 - January 2024",
@@ -51,7 +50,7 @@
     },
     "projects": {
       "title": "Projects",
-      "description": "I have worked on projects using Java, JavaScript, Spring Boot, HTML, CSS, Angular, React, and Python, among other technologies. My focus spans from web application development to backend logic, integrating both relational and non-relational databases to ensure quality and efficiency. Additionally, I have implemented solutions involving artificial intelligence and autonomous agents, applying these technologies to optimize processes, enhance user experience, and add strategic value to projects."
+      "description": "I have worked on projects using Java, JavaScript, Spring Boot, HTML, CSS, Angular, React, and Python, among other technologies. My focus spans from web application development to backend logic, integrating both relational and non-relational databases to ensure quality and efficiency. Additionally, I have implemented solutions involving artificial intelligence and automated agents, applying these technologies to optimize processes, enhance user experience, and add strategic value to projects."
     },
     "skills": {
       "title": "Skills"

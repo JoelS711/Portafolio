@@ -110,91 +110,61 @@
     "preview": "https://shop-front-services.onrender.com/home"
   },
   {
-    "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1759032420/gwodsqezkz9fbuqpuxxm.png",
+    "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1784923770/lxgkuudhjqmmdqvswpis.png",
     "images": [
-      "https://res.cloudinary.com/da5vizklk/image/upload/v1759032420/gwodsqezkz9fbuqpuxxm.png",
-      "https://res.cloudinary.com/da5vizklk/image/upload/v1759032422/slu21mqk7782hc1d3d9f.png",
-      "https://res.cloudinary.com/da5vizklk/image/upload/v1759032421/jrtv2rc0btvu9dna3zuh.png"
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1784923770/cnjtyy3ufwuhpvexvguu.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1784923770/ilhetziw1cfqgrpogfca.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1784923770/lxgkuudhjqmmdqvswpis.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1784923770/sqlignpff6e8sz92ussh.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1784923770/yxrjteqpsyve0wflwcee.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1784923770/i0mms7f0pzl3bupfmmev.png",
+      "https://res.cloudinary.com/da5vizklk/image/upload/v1784923771/tnypjc4shrsjwjm2e6ff.png"
     ],
-    "nameProject": "Encriptar y Desencriptar",
+    "nameProject": "Infinity Accesss",
     "icons": [
       {
-        "src": "html.png",
-        "alt": "HTML Logo",
+        "src": "react.png",
+        "alt": "React Logo",
         "className": "projects__icon--img"
       },
       {
-        "src": "css.png",
-        "alt": "CSS Logo",
-        "className": "projects__icon--img"
-      },
-      {
-        "src": "js.png",
-        "alt": "JavaScript Logo",
+        "src": "tailwind.png",
+        "alt": "Tailwind Logo",
         "className": "projects__icon--img"
       },
       {
         "src": "python.png",
         "alt": "Python Logo",
         "className": "projects__icon--img"
-      }
-    ],
-    "description": "Encryptor es una herramienta web que permite cifrar y descifrar palabras ingresadas por el usuario, con una interfaz intuitiva.",
-    "github": "https://github.com/JoelS711/AluraChallenge",
-    "preview": "https://joels711.github.io/AluraChallenge/"
-  },
-  {
-    "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1759032781/ntjjmlceimnlamze9qhj.jpg",
-    "images": [
-      "https://res.cloudinary.com/da5vizklk/image/upload/v1759032781/ntjjmlceimnlamze9qhj.jpg"
-    ],
-    "nameProject": "Formula 1",
-    "icons": [
+      },
       {
-        "src": "html.png",
-        "alt": "HTML Logo",
+        "src": "mcp.png",
+        "alt": "MCP Logo",
         "className": "projects__icon--img"
       },
       {
-        "src": "css.png",
-        "alt": "CSS Logo",
+        "src": "supabase.png",
+        "alt": "Supabase Logo",
         "className": "projects__icon--img"
       },
       {
-        "src": "js.png",
-        "alt": "JavaScript Logo",
-        "className": "projects__icon--img"
-      }
-    ],
-    "description": "Esta página está diseñada para consumir datos de una API de la Fórmula 1, ofreciendo una experiencia dinámica y actualizada sobre eventos, estadísticas y detalles relacionados con el apasionante mundo de las carreras de autos de la Fórmula 1.",
-    "github": "https://github.com/JoelS711/Api-JS/tree/master/F1",
-    "preview": "https://joels711.github.io/Api-JS/F1/index.html"
-  },
-  {
-    "image": "https://res.cloudinary.com/da5vizklk/image/upload/v1759033290/zfymttibpgikdkrttc7v.jpg",
-    "images": [
-      "https://res.cloudinary.com/da5vizklk/image/upload/v1759033290/zfymttibpgikdkrttc7v.jpg"
-    ],
-    "nameProject": "Essence Atelier",
-    "icons": [
-      {
-        "src": "html.png",
-        "alt": "HTML Logo",
+        "src": "ailogo.png",
+        "alt": "AI Logo",
         "className": "projects__icon--img"
       },
       {
-        "src": "css.png",
-        "alt": "CSS Logo",
+        "src": "docker.png",
+        "alt": "Docker Logo",
         "className": "projects__icon--img"
       },
       {
-        "src": "js.png",
-        "alt": "JavaScript Logo",
+        "src": "ts.png",
+        "alt": "TypeScript Logo",
         "className": "projects__icon--img"
       }
     ],
-    "description": "Esta página web para Essence Atelier presenta jabones y velas artesanales. Utiliza la fuente Poppins y un carrusel de imágenes interactivo con Swiper.js para mostrar productos. La navegación entre secciones es suave, mejorando la experiencia del usuario.",
-    "github": "https://github.com/JoelS711/EssenceAtelier",
-    "preview": "https://joels711.github.io/EssenceAtelier/"
+    "description": "InfinityAccess es un Sistema de Control de Acceso Físico (PACS) empresarial con arquitectura orientada a eventos. Su backend (FastAPI, RabbitMQ) integra un avanzado motor de permisos (PBAC) y comunicación bidireccional que abstrae e integra múltiples marcas de hardware biométrico de borde. El frontend (React, Tailwind, Zustand) ofrece un panel de control interactivo para gestionar reservas, auditorías y monitoreo de incidentes de seguridad mediante WebSockets. En conjunto, es una solución robusta y escalable diseñada para la sincronización en tiempo real entre la nube y dispositivos físicos.",
+    "github": "https://github.com/JoelS711/backTiendaGenerica",
+    "preview": "https://shop-front-services.onrender.com/home"
   }
 ]

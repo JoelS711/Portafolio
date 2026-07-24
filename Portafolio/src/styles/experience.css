@@ -1,58 +1,112 @@
 @import url("./index.css");
 
-/* Experience */
-
+/* ============================================
+   Experience — tarjetas mejoradas
+   ============================================ */
 .experience {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem;
-  gap: 2rem;
+  padding: clamp(3rem, 8vw, 5.5rem) clamp(1rem, 5vw, 3rem);
+  gap: 2.2rem;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.experience__title {
+  color: var(--accent);
+  text-align: center;
 }
 
 .experience__cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  gap: 2rem;
+  align-items: stretch;
+  gap: 1.8rem;
 }
 
 .experience__card {
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 20rem;
-  height: 18rem;
-  border-radius: 1rem;
-  padding: 1rem;
-  gap: 0.2rem;
+  align-items: flex-start;
+  width: min(21rem, 100%);
+  padding: 1.7rem 1.5rem;
+  gap: 0.45rem;
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition:
+    transform 0.35s var(--ease-out),
+    box-shadow 0.35s ease,
+    border-color 0.35s ease,
+    background-color 0.4s ease;
 }
 
-.experience__title {
-  color: var(--second-color);
-  text-align: center;
+/* Barra lateral de acento al hover */
+.experience__card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: var(--accent-grad);
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.4s var(--ease-out);
 }
 
+.experience__card:hover {
+  transform: translateY(-7px);
+  border-color: var(--accent);
+  box-shadow: var(--shadow-glow);
+}
+
+.experience__card:hover::before {
+  transform: scaleY(1);
+}
+
+/* Badge de fecha con gradiente */
 .experience__card--titlecontain {
-  text-align: center;
+  margin-bottom: 0.35rem;
 }
 
 .experience__card--title {
-  color: var(--second-color);
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #fff;
+  background: var(--accent-grad);
+  padding: 0.32rem 0.9rem;
+  border-radius: 999px;
+  box-shadow: 0 4px 14px rgba(132, 54, 210, 0.35);
+}
+
+.experience__card--company {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--heading);
+}
+
+.experience__card--position {
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--accent);
 }
 
 .experience__card--text {
-  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--text-muted);
 }
 
 @media screen and (max-width: 768px) {
   .experience__cards {
-    gap: 4rem;
-  }
-
-  .experience__card {
-    height: 14rem;
+    gap: 1.4rem;
   }
 }

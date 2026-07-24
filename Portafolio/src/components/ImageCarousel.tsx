@@ -109,6 +109,7 @@ export function ImageCarousel({
           {/* Image container */}
           <div className="carousel-image-container">
             <img
+              key={currentIndex}
               src={images[currentIndex]}
               alt={`${projectName} - Image ${currentIndex + 1}`}
               className="carousel-image"

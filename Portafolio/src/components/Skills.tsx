@@ -1,13 +1,17 @@
 import "@/styles/skills.css";
 import dataSkill from "../assets/dataProjects_es.json";
 import { ComponentProps } from "../types/common";
+import { useReveal } from "../hooks/useReveal";
 
 export function Skills({ content }: ComponentProps) {
+  const sectionRef = useReveal<HTMLElement>();
+  const chipsRef = useReveal<HTMLElement>(true);
+
   interface Skill {
     src: string;
     alt: string;
   }
-  
+
   let allSkills: Skill[] = [];
   dataSkill.forEach((data) => {
     data.icons.forEach((icon) => {
@@ -24,11 +28,15 @@ export function Skills({ content }: ComponentProps) {
       <section className="separator">
         <div className="separator__line"></div>
       </section>
-      <section className="skills" id="skills">
+      <section className="skills" id="skills" ref={sectionRef}>
         <h2 className="skills__title">{content.sections.skills.title}</h2>
-        <figure className="skills__figure">
+        <figure className="skills__figure" ref={chipsRef}>
           {uniqueSkills.map((skill, index) => (
-            <div key={index} className="skills__item">
+            <div
+              key={index}
+              className="skills__item"
+              style={{ "--stagger-index": index } as React.CSSProperties}
+            >
               <img
                 src={`/Icons/${skill.src}`}
                 alt={skill.alt}

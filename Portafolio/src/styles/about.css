@@ -1,51 +1,95 @@
 @import url('./index.css');
 
-/* About */
-
-.about{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 4rem;
-    gap: 1rem;
-    width: 100%;
-    align-items: center;
+/* ============================================
+   About
+   ============================================ */
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: clamp(3rem, 8vw, 5.5rem) clamp(1rem, 5vw, 3rem);
+  gap: 1.2rem;
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+  align-items: center;
 }
 
-.about__cards{
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
+.about__title {
+  color: var(--accent);
 }
 
-.about__cards--card{
-    background-color: var(--third-color);
-    border-radius: 1rem;
-    padding: 1rem;
-    width: 20rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.about__p {
+  max-width: 52rem;
+  color: var(--text-muted);
+  font-weight: 300;
+  font-size: 1.02rem;
 }
 
-.about__cards--img{
-    width: 5rem;
+.about__cards {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1.5rem;
 }
 
-.about__title{
-    color: var(--second-color);
+.about__cards--card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: 1.8rem 1.4rem;
+  width: min(19rem, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.1rem;
+  transition:
+    transform 0.35s var(--ease-out),
+    box-shadow 0.35s ease,
+    border-color 0.35s ease,
+    background-color 0.4s ease;
 }
 
-.about__p{
-    width: 80%;
-} 
+.about__cards--card:hover {
+  transform: translateY(-8px);
+  border-color: var(--accent);
+  box-shadow: var(--shadow-glow);
+}
 
+/* Ícono dentro de un chip circular con gradiente */
+.about__cards--iconchip {
+  display: grid;
+  place-items: center;
+  width: 5.2rem;
+  height: 5.2rem;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  border: 1px solid var(--border);
+  transition:
+    transform 0.4s var(--ease-out),
+    background 0.3s ease;
+}
+
+.about__cards--card:hover .about__cards--iconchip {
+  transform: scale(1.08) rotate(-4deg);
+  background: var(--hover-color);
+}
+
+.about__cards--img {
+  width: 3rem;
+}
+
+.about__cards--card p {
+  color: var(--text);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
 
 @media screen and (max-width: 768px) {
-    .about__p{
-        width: 100%;
-        text-align: center;
-    }    
-    }
+  .about__p {
+    width: 100%;
+    text-align: center;
+  }
+}

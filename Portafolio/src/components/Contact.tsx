@@ -1,13 +1,16 @@
 import "@/styles/contact.css";
 import { ComponentProps } from "../types/common";
+import { useReveal } from "../hooks/useReveal";
 
 export function Contact({ content }: ComponentProps) {
+  const sectionRef = useReveal<HTMLElement>();
+
   return (
     <>
       <section className="separator">
         <div className="separator__line"></div>
       </section>
-      <section className="contact" id="contact">
+      <section className="contact" id="contact" ref={sectionRef}>
         <h2 className="contact__title">{content.sections.contact.title}</h2>
         <p className="contact__description">
           {content.sections.contact.description}

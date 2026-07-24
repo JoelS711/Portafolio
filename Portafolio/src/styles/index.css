@@ -5,33 +5,160 @@
   padding: 0;
 }
 
-/* Global Styles */
+/* ============================================
+   Design Tokens — paleta original preservada
+   ============================================ */
 :root {
+  /* Paleta original (NO cambia) */
   --font-color: #4f4f4f;
   --second-color: #8436d2;
   --third-color: #e7e7e7;
+
+  /* Tokens derivados — tema claro */
+  --bg: #f7f5fc;
+  --surface: #ffffff;
+  --surface-2: var(--third-color);
+  --text: var(--font-color);
+  --text-muted: #6e6e78;
+  --heading: #2b2b33;
+  --accent: var(--second-color);
+  --accent-light: #a56ef0;
+  --accent-soft: rgba(132, 54, 210, 0.1);
+  --accent-grad: linear-gradient(135deg, #8436d2 0%, #b07ef2 100%);
+  --border: rgba(132, 54, 210, 0.16);
+  --border-color: rgba(132, 54, 210, 0.16);
+  --hover-color: rgba(132, 54, 210, 0.12);
+  --text-color: var(--font-color);
+  --header-bg: rgba(255, 255, 255, 0.72);
+  --shadow-sm: 0 2px 10px rgba(46, 16, 101, 0.08);
+  --shadow-md: 0 10px 30px rgba(46, 16, 101, 0.12);
+  --shadow-glow: 0 10px 34px rgba(132, 54, 210, 0.28);
+  --glow-1: rgba(132, 54, 210, 0.09);
+  --glow-2: rgba(132, 54, 210, 0.07);
+  --overlay-bg: rgba(30, 12, 56, 0.45);
+
+  --radius-sm: 0.75rem;
+  --radius-md: 1.25rem;
+  --radius-lg: 2rem;
+  --header-height: 4.5rem;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Tema oscuro — mismos colores base, tokens redefinidos */
+.dark-mode {
+  --bg: #0a0a10;
+  --surface: #13131c;
+  --surface-2: #1a1a26;
+  --text: #e9e9f0;
+  --text-muted: #a6a6b6;
+  --heading: #ffffff;
+  --accent-light: #b07ef2;
+  --accent-soft: rgba(132, 54, 210, 0.22);
+  --border: rgba(132, 54, 210, 0.35);
+  --border-color: rgba(132, 54, 210, 0.35);
+  --hover-color: rgba(132, 54, 210, 0.25);
+  --text-color: #e9e9f0;
+  --header-bg: rgba(10, 10, 16, 0.68);
+  --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 10px 34px rgba(132, 54, 210, 0.4);
+  --glow-1: rgba(132, 54, 210, 0.16);
+  --glow-2: rgba(132, 54, 210, 0.12);
+  --overlay-bg: rgba(0, 0, 0, 0.6);
+}
+
+/* ============================================
+   Base
+   ============================================ */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   width: 100%;
-  height: 100dvh;
+  min-height: 100dvh;
   font-family: "Poppins", sans-serif;
-  color: var(--font-color);
-  background-color: #e5e5f7;
-  opacity: 1;
-  width: 100%;
-  height: 100%;
-  background-image: repeating-radial-gradient(circle at 0 0,
-      transparent 0,
-      #Ffffff 100px),
-    repeating-linear-gradient(#FAFAF9, #FAFAF9);
+  font-weight: 400;
+  color: var(--text);
+  background-color: var(--bg);
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Fondo de la app: capa fija pintada una sola vez (GPU),
+   evita background-attachment: fixed que repinta en cada frame de scroll */
+.App {
+  min-height: 100dvh;
+  position: relative;
+  isolation: isolate;
+  transition: color 0.4s ease;
+}
+
+.App::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    radial-gradient(ellipse 55% 38% at 12% 0%, var(--glow-1), transparent),
+    radial-gradient(ellipse 45% 32% at 88% 100%, var(--glow-2), transparent);
 }
 
 h2 {
-  font-size: 3rem;
-  color: var(--second-color);
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  font-weight: 600;
+  color: var(--accent);
+  line-height: 1.15;
 }
 
+h3 {
+  color: var(--heading);
+  font-weight: 600;
+}
+
+p {
+  color: var(--text);
+  line-height: 1.65;
+}
+
+img {
+  user-select: none;
+}
+
+section[id] {
+  scroll-margin-top: calc(var(--header-height) + 1rem);
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--accent), var(--accent-light));
+  border-radius: 8px;
+  border: 2px solid var(--bg);
+}
+
+/* Focus accesible */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ============================================
+   Separador entre secciones
+   ============================================ */
 .separator {
   display: flex;
   justify-content: center;
@@ -39,8 +166,88 @@ h2 {
 }
 
 .separator__line {
-  width: 80%;
-  border-top: 2px solid var(--third-color);
+  width: min(80%, 60rem);
+  height: 2px;
   margin: 1rem;
-  /* Margen superior e inferior para espaciar la línea */
+  border: none;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--border) 20%,
+    var(--accent) 50%,
+    var(--border) 80%,
+    transparent
+  );
+  opacity: 0.6;
+}
+
+/* ============================================
+   Sistema de animación reveal (scroll)
+   ============================================ */
+.reveal,
+.reveal-stagger > * {
+  opacity: 0;
+  transform: translateY(26px);
+  transition:
+    opacity 0.7s var(--ease-out),
+    transform 0.7s var(--ease-out);
+  will-change: opacity, transform;
+}
+
+.reveal-stagger > * {
+  transition-delay: calc(var(--stagger-index, 0) * 75ms);
+}
+
+.reveal.reveal--visible,
+.reveal-stagger.reveal--visible > * {
+  opacity: 1;
+  transform: none;
+  /* Libera las capas del compositor una vez terminada la animación */
+  will-change: auto;
+}
+
+/* ============================================
+   Keyframes globales
+   ============================================ */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(26px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes floatY {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Respeta usuarios con movimiento reducido */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .reveal,
+  .reveal-stagger > * {
+    opacity: 1;
+    transform: none;
+  }
 }

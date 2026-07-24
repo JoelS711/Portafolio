@@ -1,9 +1,12 @@
 import "@/styles/footer.css";
 import { ComponentProps } from "../types/common";
+import { useReveal } from "../hooks/useReveal";
 
 export function Footer({ content }: ComponentProps) {
+  const footerRef = useReveal<HTMLElement>();
+
   return (
-    <section className="footer">
+    <section className="footer" ref={footerRef}>
       <figure className="footer__icons">
         <a
           href="https://www.youtube.com/@joels3356"

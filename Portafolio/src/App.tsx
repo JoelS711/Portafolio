@@ -2,6 +2,8 @@ import { useDarkMode } from './hooks/useDarkMode';
 import { useLanguage } from './hooks/useLanguage';
 import "./styles/App.css";
 import { Header } from "./components/Header";
+import { ScrollProgress } from "./components/ScrollProgress";
+import { BackToTop } from "./components/BackToTop";
 import { Presentation } from "./components/Presentation";
 import { Download } from "./components/Download";
 import { About } from "./components/About";
@@ -40,6 +42,7 @@ function App() {
 
   return (
     <main className={`App ${darkMode ? "dark-mode" : ""}`}>
+      <ScrollProgress />
       <Header
         darkMode={darkMode}
         onDarkModeChange={setDarkMode}
@@ -55,6 +58,7 @@ function App() {
       <Skills content={content} />
       <Contact content={content} />
       <Footer content={content} />
+      <BackToTop />
     </main>
   );
 }
